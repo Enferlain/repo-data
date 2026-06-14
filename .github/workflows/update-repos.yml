@@ -30,6 +30,10 @@ jobs:
           INCLUDE_FORKS: "true"
           INCLUDE_ARCHIVED: "false"
           EXCLUDED_REPOS: repo-data
+          CANDIDATE_LIMIT: 15
+          BRANCH_LIMIT: 20
+          # Optional: add a read-only public token as a repo secret if unauthenticated API rate limits bite.
+          # GITHUB_PUBLIC_TOKEN: ${{ secrets.GITHUB_PUBLIC_TOKEN }}
 
       - name: Commit repos.json
         run: |

@@ -2,12 +2,16 @@
   "generatedAt": null,
   "username": "Enferlain",
   "maxAgeDays": 30,
-  "source": "github-public-user-push-events",
+  "source": "github-repo-branches-commits-since",
   "rules": {
     "maxRepos": 5,
+    "candidateLimit": 15,
+    "branchLimit": 20,
     "includeForks": true,
     "includeArchived": false,
-    "excludedRepos": ["repo-data"],
+    "excludedRepos": [
+      "repo-data"
+    ],
     "minRecentCommits": 1
   },
   "repos": []

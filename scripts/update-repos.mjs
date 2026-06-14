@@ -4,6 +4,7 @@ const USERNAME = process.env.GITHUB_USERNAME || "Enferlain";
 const TOKEN = process.env.GITHUB_TOKEN || "";
 
 const MAX_REPOS = readIntegerEnv("MAX_REPOS", 5, 1, 20);
+const EXCLUDED_REPOS = new Set(["repo-data"]);
 const MAX_AGE_DAYS = readIntegerEnv("MAX_AGE_DAYS", 30, 1, 365);
 const CANDIDATE_MULTIPLIER = readIntegerEnv("CANDIDATE_MULTIPLIER", 8, 1, 20);
 const INCLUDE_FORKS = readBooleanEnv("INCLUDE_FORKS", true);
@@ -27,6 +28,7 @@ async function main() {
 
   const candidates = publicRepos
     .filter((repo) => !repo.private)
+    .filter((repo) => !EXCLUDED_REPOS.has(repo.name))
     .filter((repo) => INCLUDE_FORKS || !repo.fork)
     .filter((repo) => INCLUDE_ARCHIVED || !repo.archived)
     .filter((repo) => repo.default_branch)

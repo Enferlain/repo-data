@@ -1,6 +1,29 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-06-14T23:04:23.108Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
-  "repos": []
+  "rules": {
+    "maxRepos": 5,
+    "includeForks": true,
+    "includeArchived": false,
+    "minTotalCommits": 1,
+    "minRecentCommits": 1
+  },
+  "repos": [
+    {
+      "name": "repo-data",
+      "fullName": "Enferlain/repo-data",
+      "url": "https://github.com/Enferlain/repo-data",
+      "description": "data storage for repo activity",
+      "commits": 14,
+      "totalCommits": 14,
+      "recentCommits": 14,
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "isFork": false,
+      "updatedAt": "2026-06-14T23:02:20Z",
+      "activityScore": 4074
+    }
+  ]
 }

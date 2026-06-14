@@ -1,61 +1,165 @@
-import { writeFile } from "node:fs/promises";
-
 const USERNAME = process.env.GITHUB_USERNAME || "Enferlain";
-const TOKEN = process.env.GITHUB_TOKEN || "";
+const MAX_REPOS = numberEnv("MAX_REPOS", 5);
+const MAX_AGE_DAYS = Math.min(numberEnv("MAX_AGE_DAYS", 30), 30);
+const INCLUDE_FORKS = boolEnv("INCLUDE_FORKS", true);
+const INCLUDE_ARCHIVED = boolEnv("INCLUDE_ARCHIVED", false);
+const EXCLUDED_REPOS = new Set(
+  (process.env.EXCLUDED_REPOS || "repo-data")
+    .split(",")
+    .map((name) => name.trim())
+    .filter(Boolean),
+);
 
-const MAX_REPOS = readIntegerEnv("MAX_REPOS", 5, 1, 20);
-const MAX_AGE_DAYS = readIntegerEnv("MAX_AGE_DAYS", 30, 1, 365);
-const CANDIDATE_MULTIPLIER = readIntegerEnv("CANDIDATE_MULTIPLIER", 8, 1, 20);
-const INCLUDE_FORKS = readBooleanEnv("INCLUDE_FORKS", true);
-const INCLUDE_ARCHIVED = readBooleanEnv("INCLUDE_ARCHIVED", false);
-
-const cutoffDate = new Date(Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000);
-const cutoffIso = cutoffDate.toISOString();
-
+const API_VERSION = "2022-11-28";
 const headers = {
   Accept: "application/vnd.github+json",
-  "X-GitHub-Api-Version": "2022-11-28",
-  "User-Agent": "repo-bubbles-data-updater"
+  "X-GitHub-Api-Version": API_VERSION,
+  "User-Agent": "repo-bubbles-data-updater",
 };
 
-if (TOKEN) {
-  headers.Authorization = `Bearer ${TOKEN}`;
+function numberEnv(name, fallback) {
+  const value = Number(process.env[name]);
+  return Number.isFinite(value) ? value : fallback;
+}
+
+function boolEnv(name, fallback) {
+  const value = process.env[name];
+  if (value == null || value === "") return fallback;
+  return ["1", "true", "yes", "on"].includes(value.toLowerCase());
+}
+
+function daysAgo(dateString) {
+  const time = Date.parse(dateString);
+  if (!Number.isFinite(time)) return Number.POSITIVE_INFINITY;
+  return (Date.now() - time) / 86_400_000;
+}
+
+async function githubJson(url) {
+  const response = await fetch(url, { headers });
+
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`${response.status} ${response.statusText}: ${url}\n${text}`);
+  }
+
+  return response.json();
+}
+
+async function listRecentPublicEvents() {
+  const events = [];
+
+  for (let page = 1; page <= 3; page += 1) {
+    const url = new URL(`https://api.github.com/users/${USERNAME}/events/public`);
+    url.searchParams.set("per_page", "100");
+    url.searchParams.set("page", String(page));
+
+    const pageEvents = await githubJson(url);
+    if (!Array.isArray(pageEvents) || pageEvents.length === 0) break;
+
+    events.push(...pageEvents);
+    if (pageEvents.length < 100) break;
+  }
+
+  return events;
+}
+
+function getPushCommitCount(event) {
+  const size = Number(event.payload?.size);
+  if (Number.isFinite(size) && size > 0) return size;
+
+  const commits = event.payload?.commits;
+  if (Array.isArray(commits)) return commits.length;
+
+  return 0;
+}
+
+function groupPushEvents(events) {
+  const cutoff = Date.now() - MAX_AGE_DAYS * 86_400_000;
+  const groups = new Map();
+
+  for (const event of events) {
+    if (event.type !== "PushEvent") continue;
+    if (Date.parse(event.created_at) < cutoff) continue;
+
+    const fullName = event.repo?.name;
+    if (!fullName || !fullName.includes("/")) continue;
+
+    const repoName = fullName.split("/").pop();
+    if (EXCLUDED_REPOS.has(repoName) || EXCLUDED_REPOS.has(fullName)) continue;
+
+    const commitCount = getPushCommitCount(event);
+    if (commitCount < 1) continue;
+
+    const current = groups.get(fullName) || {
+      fullName,
+      name: repoName,
+      recentCommits: 0,
+      pushEvents: 0,
+      latestEventAt: event.created_at,
+      refs: new Set(),
+    };
+
+    current.recentCommits += commitCount;
+    current.pushEvents += 1;
+
+    if (Date.parse(event.created_at) > Date.parse(current.latestEventAt)) {
+      current.latestEventAt = event.created_at;
+    }
+
+    const ref = String(event.payload?.ref || "").replace(/^refs\/heads\//, "");
+    if (ref) current.refs.add(ref);
+
+    groups.set(fullName, current);
+  }
+
+  return [...groups.values()];
+}
+
+async function fetchRepoMetadata(fullName) {
+  return githubJson(`https://api.github.com/repos/${fullName}`);
+}
+
+function activityScore(group, repo) {
+  const recencyBoost = Math.max(0, MAX_AGE_DAYS - daysAgo(group.latestEventAt)) * 35;
+
+  return Math.round(
+    group.recentCommits * 1000 +
+      group.pushEvents * 125 +
+      repo.stargazers_count * 70 +
+      repo.forks_count * 45 +
+      recencyBoost,
+  );
 }
 
 async function main() {
-  const publicRepos = await getPublicRepos();
-
-  const candidates = publicRepos
-    .filter((repo) => !repo.private)
-    .filter((repo) => INCLUDE_FORKS || !repo.fork)
-    .filter((repo) => INCLUDE_ARCHIVED || !repo.archived)
-    .filter((repo) => repo.default_branch)
-    .filter((repo) => repo.pushed_at)
-    .filter((repo) => daysSince(repo.pushed_at) <= MAX_AGE_DAYS)
-    .slice(0, MAX_REPOS * CANDIDATE_MULTIPLIER);
-
+  const events = await listRecentPublicEvents();
+  const groups = groupPushEvents(events);
   const repos = [];
 
-  for (const repo of candidates) {
-    const stats = await getCommitStats(repo);
+  for (const group of groups) {
+    const repo = await fetchRepoMetadata(group.fullName);
 
-    if (stats.totalCommits < 1) continue;
-    if (stats.recentCommits < 1) continue;
+    if (repo.private) continue;
+    if (!INCLUDE_FORKS && repo.fork) continue;
+    if (!INCLUDE_ARCHIVED && repo.archived) continue;
 
     repos.push({
       name: repo.name,
       fullName: repo.full_name,
       url: repo.html_url,
       description: repo.description || "",
-      commits: stats.totalCommits,
-      totalCommits: stats.totalCommits,
-      recentCommits: stats.recentCommits,
-      stars: repo.stargazers_count || 0,
-      forks: repo.forks_count || 0,
+      commits: group.recentCommits,
+      totalCommits: null,
+      recentCommits: group.recentCommits,
+      pushEvents: group.pushEvents,
+      refs: [...group.refs].sort(),
+      stars: repo.stargazers_count,
+      forks: repo.forks_count,
       language: repo.language || "",
-      isFork: Boolean(repo.fork),
-      updatedAt: repo.pushed_at,
-      activityScore: activityScore(repo, stats)
+      isFork: repo.fork,
+      updatedAt: group.latestEventAt,
+      pushedAt: repo.pushed_at,
+      activityScore: activityScore(group, repo),
     });
   }
 
@@ -65,149 +169,22 @@ async function main() {
     generatedAt: new Date().toISOString(),
     username: USERNAME,
     maxAgeDays: MAX_AGE_DAYS,
+    source: "github-public-user-push-events",
     rules: {
       maxRepos: MAX_REPOS,
       includeForks: INCLUDE_FORKS,
       includeArchived: INCLUDE_ARCHIVED,
-      minTotalCommits: 1,
-      minRecentCommits: 1
+      excludedRepos: [...EXCLUDED_REPOS],
+      minRecentCommits: 1,
     },
-    repos: repos.slice(0, MAX_REPOS)
+    repos: repos.slice(0, MAX_REPOS),
   };
 
-  await writeFile("repos.json", `${JSON.stringify(output, null, 2)}\n`, "utf8");
-  console.log(`Wrote ${output.repos.length} repositories to repos.json`);
-}
-
-async function getPublicRepos() {
-  const repos = [];
-
-  for (let page = 1; page <= 5; page++) {
-    const url = new URL(`https://api.github.com/users/${encodeURIComponent(USERNAME)}/repos`);
-    url.searchParams.set("type", "owner");
-    url.searchParams.set("sort", "pushed");
-    url.searchParams.set("direction", "desc");
-    url.searchParams.set("per_page", "100");
-    url.searchParams.set("page", String(page));
-
-    const pageRepos = await githubJson(url);
-    repos.push(...pageRepos);
-
-    if (pageRepos.length < 100) break;
-
-    const oldestOnPage = pageRepos[pageRepos.length - 1]?.pushed_at;
-    if (oldestOnPage && daysSince(oldestOnPage) > MAX_AGE_DAYS) break;
-  }
-
-  return repos;
-}
-
-async function getCommitStats(repo) {
-  if (!repo.default_branch) {
-    return { totalCommits: 0, recentCommits: 0 };
-  }
-
-  const totalUrl = new URL(`https://api.github.com/repos/${repo.full_name}/commits`);
-  totalUrl.searchParams.set("sha", repo.default_branch);
-  totalUrl.searchParams.set("per_page", "1");
-
-  const totalResponse = await githubFetch(totalUrl, { allowEmptyRepo: true });
-  if (!totalResponse) {
-    return { totalCommits: 0, recentCommits: 0 };
-  }
-
-  const totalData = await totalResponse.json();
-  const totalCommits = Array.isArray(totalData) && totalData.length > 0
-    ? parseLastPage(totalResponse.headers.get("link")) || totalData.length
-    : 0;
-
-  if (totalCommits < 1) {
-    return { totalCommits: 0, recentCommits: 0 };
-  }
-
-  const recentCommits = await countRecentCommits(repo);
-  return { totalCommits, recentCommits };
-}
-
-async function countRecentCommits(repo) {
-  let count = 0;
-
-  for (let page = 1; page <= 10; page++) {
-    const url = new URL(`https://api.github.com/repos/${repo.full_name}/commits`);
-    url.searchParams.set("sha", repo.default_branch);
-    url.searchParams.set("since", cutoffIso);
-    url.searchParams.set("per_page", "100");
-    url.searchParams.set("page", String(page));
-
-    const response = await githubFetch(url, { allowEmptyRepo: true });
-    if (!response) return 0;
-
-    const data = await response.json();
-    if (!Array.isArray(data) || data.length === 0) break;
-
-    count += data.length;
-    if (data.length < 100) break;
-  }
-
-  return count;
-}
-
-function activityScore(repo, stats) {
-  const age = Math.max(0, daysSince(repo.pushed_at));
-  const recencyBoost = Math.max(0, MAX_AGE_DAYS - age) * 25;
-
-  return Math.round(
-    stats.recentCommits * 220 +
-      Math.log1p(stats.totalCommits) * 90 +
-      (repo.stargazers_count || 0) * 70 +
-      (repo.forks_count || 0) * 45 +
-      recencyBoost
+  await import("node:fs/promises").then((fs) =>
+    fs.writeFile("repos.json", `${JSON.stringify(output, null, 2)}\n`),
   );
-}
 
-async function githubJson(url) {
-  const response = await githubFetch(url);
-  return response.json();
-}
-
-async function githubFetch(url, options = {}) {
-  const response = await fetch(url, { headers });
-
-  if (options.allowEmptyRepo && (response.status === 404 || response.status === 409)) {
-    return null;
-  }
-
-  if (!response.ok) {
-    const text = await response.text();
-    throw new Error(`${response.status} ${response.statusText}: ${url}\n${text}`);
-  }
-
-  return response;
-}
-
-function parseLastPage(linkHeader) {
-  if (!linkHeader) return null;
-
-  const match = linkHeader.match(/[?&]page=(\d+)[^>]*>;\s*rel="last"/);
-  return match ? Number(match[1]) : null;
-}
-
-function daysSince(dateString) {
-  const time = Date.parse(dateString);
-  if (!Number.isFinite(time)) return Number.POSITIVE_INFINITY;
-  return (Date.now() - time) / (24 * 60 * 60 * 1000);
-}
-
-function readIntegerEnv(name, fallback, min, max) {
-  const value = Number(process.env[name] || fallback);
-  if (!Number.isFinite(value)) return fallback;
-  return Math.max(min, Math.min(max, Math.floor(value)));
-}
-
-function readBooleanEnv(name, fallback) {
-  const value = process.env[name];
-  if (value == null || value === "") return fallback;
-  return ["1", "true", "yes", "on"].includes(String(value).toLowerCase());
+  console.log(`Found ${groups.length} recently pushed repos; wrote ${output.repos.length} repos to repos.json`);
 }
 
 main().catch((error) => {

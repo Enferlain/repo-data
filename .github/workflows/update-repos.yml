@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -24,17 +24,17 @@ jobs:
       - name: Generate repos.json
         run: node scripts/update-repos.mjs
         env:
-          GITHUB_TOKEN: ${{ github.token }}
           GITHUB_USERNAME: Enferlain
           MAX_REPOS: 5
           MAX_AGE_DAYS: 30
           INCLUDE_FORKS: "true"
           INCLUDE_ARCHIVED: "false"
+          EXCLUDED_REPOS: repo-data
 
-      - name: Commit updated repos.json
+      - name: Commit repos.json
         run: |
           if git diff --quiet repos.json; then
-            echo "No repo data changes"
+            echo "No changes"
             exit 0
           fi
 

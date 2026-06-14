@@ -1,20 +1,22 @@
-# repo-data GitHub bubbles setup
+# Repo bubbles data
 
-This repo publishes a static `repos.json` file for a public profile page.
+This repository stores a generated `repos.json` file for the profile page repo bubbles.
 
-The GitHub Action runs every 6 hours and manually via **Actions → Update repo bubbles data → Run workflow**.
+The updater uses GitHub public user `PushEvent` activity instead of checking only default branches.
+That means pushes to feature branches/fork branches still count.
 
-Rules:
+## Files
 
-- includes forks
-- excludes archived repos
-- uses public repos only
-- drops repos with zero total commits
-- drops repos with zero commits on the default branch in the last 30 days
-- keeps the top 5 by activity score
+- `scripts/update-repos.mjs` — generates `repos.json`
+- `.github/workflows/update-repos.yml` — runs the updater every 6 hours and manually
+- `repos.json` — public data consumed by the profile page
 
-Fetch URL:
+## Output URL
 
 ```txt
 https://raw.githubusercontent.com/Enferlain/repo-data/main/repos.json
 ```
+
+## Notes
+
+GitHub's public events API only includes recent public activity, so this is meant for a "recent activity" visual rather than lifetime repository statistics.

@@ -2,5 +2,13 @@
   "generatedAt": null,
   "username": "Enferlain",
   "maxAgeDays": 30,
+  "source": "github-public-user-push-events",
+  "rules": {
+    "maxRepos": 5,
+    "includeForks": true,
+    "includeArchived": false,
+    "excludedRepos": ["repo-data"],
+    "minRecentCommits": 1
+  },
   "repos": []
 }

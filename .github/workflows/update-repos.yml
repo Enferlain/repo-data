@@ -24,7 +24,6 @@ jobs:
       - name: Generate repos.json
         run: node scripts/update-repos.mjs
         env:
-          GITHUB_TOKEN: ${{ github.token }}
           GITHUB_USERNAME: Enferlain
           MAX_REPOS: 5
           MAX_AGE_DAYS: 30

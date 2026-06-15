@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T12:45:50.207Z",
+  "generatedAt": "2026-06-15T21:26:16.289Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,47 @@
       "isFork": true,
       "updatedAt": "2026-06-14T19:44:43Z",
       "pushedAt": "2026-06-15T11:47:51Z",
-      "activityScore": 22245
+      "activityScore": 22233
+    },
+    {
+      "name": "xl-converter",
+      "fullName": "Enferlain/xl-converter",
+      "url": "https://github.com/Enferlain/xl-converter",
+      "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more. ",
+      "commits": 2,
+      "totalCommits": null,
+      "recentCommits": 2,
+      "refs": [
+        "codex/preserve-exif-and-md5"
+      ],
+      "scannedBranches": 2,
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "isFork": true,
+      "updatedAt": "2026-06-15T15:49:05Z",
+      "pushedAt": "2026-06-15T15:49:08Z",
+      "activityScore": 3262
+    },
+    {
+      "name": "frappe-skill-package",
+      "fullName": "Enferlain/frappe-skill-package",
+      "url": "https://github.com/Enferlain/frappe-skill-package",
+      "description": "60 deterministic AI skills for Frappe Framework & ERPNext v14-v16 development and operations",
+      "commits": 1,
+      "totalCommits": null,
+      "recentCommits": 1,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "isFork": true,
+      "updatedAt": "2026-06-15T13:30:11Z",
+      "pushedAt": "2026-06-15T13:30:59Z",
+      "activityScore": 2188
     }
   ]
 }

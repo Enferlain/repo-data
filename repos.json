@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:58:33.076Z",
+  "generatedAt": "2026-06-21T05:21:15.865Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -31,9 +31,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-06-20T16:59:15Z",
-      "pushedAt": "2026-06-20T16:59:23Z",
-      "activityScore": 24266
+      "updatedAt": "2026-06-21T01:05:43Z",
+      "pushedAt": "2026-06-21T01:05:51Z",
+      "activityScore": 24264
     },
     {
       "name": "review-mcp",
@@ -54,7 +54,7 @@
       "isFork": false,
       "updatedAt": "2026-06-17T14:10:29Z",
       "pushedAt": "2026-06-17T14:10:33Z",
-      "activityScore": 10237
+      "activityScore": 10223
     },
     {
       "name": "xl-converter",
@@ -74,7 +74,27 @@
       "isFork": true,
       "updatedAt": "2026-06-15T15:49:05Z",
       "pushedAt": "2026-06-15T15:49:08Z",
-      "activityScore": 3089
+      "activityScore": 3075
+    },
+    {
+      "name": "mcp-erpnext",
+      "fullName": "Enferlain/mcp-erpnext",
+      "url": "https://github.com/Enferlain/mcp-erpnext",
+      "description": "MCP server for ERPNext / Frappe ERP — 120 tools across 14 categories with 7 interactive UI viewers",
+      "commits": 2,
+      "totalCommits": null,
+      "recentCommits": 2,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "isFork": true,
+      "updatedAt": "2026-06-03T13:22:22Z",
+      "pushedAt": "2026-06-03T13:22:24Z",
+      "activityScore": 2582
     },
     {
       "name": "frappe-skill-package",
@@ -94,7 +114,7 @@
       "isFork": true,
       "updatedAt": "2026-06-15T13:30:11Z",
       "pushedAt": "2026-06-15T13:30:59Z",
-      "activityScore": 2016
+      "activityScore": 2002
     }
   ]
 }

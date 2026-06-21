@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:21:15.865Z",
+  "generatedAt": "2026-06-21T10:07:35.726Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,7 @@
       "isFork": true,
       "updatedAt": "2026-06-21T01:05:43Z",
       "pushedAt": "2026-06-21T01:05:51Z",
-      "activityScore": 24264
+      "activityScore": 24257
     },
     {
       "name": "review-mcp",
@@ -54,7 +54,7 @@
       "isFork": false,
       "updatedAt": "2026-06-17T14:10:29Z",
       "pushedAt": "2026-06-17T14:10:33Z",
-      "activityScore": 10223
+      "activityScore": 10216
     },
     {
       "name": "xl-converter",
@@ -74,7 +74,7 @@
       "isFork": true,
       "updatedAt": "2026-06-15T15:49:05Z",
       "pushedAt": "2026-06-15T15:49:08Z",
-      "activityScore": 3075
+      "activityScore": 3068
     },
     {
       "name": "mcp-erpnext",
@@ -94,7 +94,7 @@
       "isFork": true,
       "updatedAt": "2026-06-03T13:22:22Z",
       "pushedAt": "2026-06-03T13:22:24Z",
-      "activityScore": 2582
+      "activityScore": 2575
     },
     {
       "name": "frappe-skill-package",
@@ -114,7 +114,7 @@
       "isFork": true,
       "updatedAt": "2026-06-15T13:30:11Z",
       "pushedAt": "2026-06-15T13:30:59Z",
-      "activityScore": 2002
+      "activityScore": 1995
     }
   ]
 }

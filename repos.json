@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:13:17.979Z",
+  "generatedAt": "2026-06-27T04:28:38.815Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -20,9 +20,9 @@
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 25,
+      "commits": 24,
       "totalCommits": null,
-      "recentCommits": 25,
+      "recentCommits": 24,
       "refs": [
         "adapter-layer"
       ],
@@ -33,7 +33,7 @@
       "isFork": true,
       "updatedAt": "2026-06-26T01:23:03Z",
       "pushedAt": "2026-06-26T01:23:13Z",
-      "activityScore": 26243
+      "activityScore": 25230
     },
     {
       "name": "heretic",
@@ -53,7 +53,7 @@
       "isFork": true,
       "updatedAt": "2026-06-18T12:46:43Z",
       "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 21909
+      "activityScore": 21897
     },
     {
       "name": "review-mcp",
@@ -74,7 +74,7 @@
       "isFork": false,
       "updatedAt": "2026-06-17T14:10:29Z",
       "pushedAt": "2026-06-17T14:10:33Z",
-      "activityScore": 10026
+      "activityScore": 10014
     },
     {
       "name": "xl-converter",
@@ -94,7 +94,7 @@
       "isFork": true,
       "updatedAt": "2026-06-15T15:49:05Z",
       "pushedAt": "2026-06-15T15:49:08Z",
-      "activityScore": 2879
+      "activityScore": 2867
     },
     {
       "name": "mcp-erpnext",
@@ -114,7 +114,7 @@
       "isFork": true,
       "updatedAt": "2026-06-03T13:22:22Z",
       "pushedAt": "2026-06-03T13:22:24Z",
-      "activityScore": 2385
+      "activityScore": 2373
     }
   ]
 }

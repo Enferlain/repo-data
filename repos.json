@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T14:09:21.055Z",
+  "generatedAt": "2026-06-27T19:47:32.620Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,7 @@
       "isFork": true,
       "updatedAt": "2026-06-26T01:23:03Z",
       "pushedAt": "2026-06-26T01:23:13Z",
-      "activityScore": 25216
+      "activityScore": 25208
     },
     {
       "name": "heretic",
@@ -53,7 +53,7 @@
       "isFork": true,
       "updatedAt": "2026-06-18T12:46:43Z",
       "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 20883
+      "activityScore": 20875
     },
     {
       "name": "review-mcp",
@@ -74,7 +74,7 @@
       "isFork": false,
       "updatedAt": "2026-06-17T14:10:29Z",
       "pushedAt": "2026-06-17T14:10:33Z",
-      "activityScore": 10000
+      "activityScore": 9992
     },
     {
       "name": "xl-converter",
@@ -94,7 +94,7 @@
       "isFork": true,
       "updatedAt": "2026-06-15T15:49:05Z",
       "pushedAt": "2026-06-15T15:49:08Z",
-      "activityScore": 2852
+      "activityScore": 2844
     },
     {
       "name": "mcp-erpnext",
@@ -114,7 +114,7 @@
       "isFork": true,
       "updatedAt": "2026-06-03T13:22:22Z",
       "pushedAt": "2026-06-03T13:22:24Z",
-      "activityScore": 2359
+      "activityScore": 2351
     }
   ]
 }

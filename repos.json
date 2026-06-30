@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T04:36:38.156Z",
+  "generatedAt": "2026-06-30T10:03:28.876Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,16 +33,16 @@
       "isFork": true,
       "updatedAt": "2026-06-28T19:13:42Z",
       "pushedAt": "2026-06-28T19:13:49Z",
-      "activityScore": 22221
+      "activityScore": 22213
     },
     {
       "name": "heretic",
       "fullName": "Enferlain/heretic",
       "url": "https://github.com/Enferlain/heretic",
       "description": "Fully automatic censorship removal for language models",
-      "commits": 20,
+      "commits": 17,
       "totalCommits": null,
-      "recentCommits": 20,
+      "recentCommits": 17,
       "refs": [
         "master"
       ],
@@ -53,7 +53,7 @@
       "isFork": true,
       "updatedAt": "2026-06-18T12:46:43Z",
       "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 20792
+      "activityScore": 17784
     },
     {
       "name": "review-mcp",
@@ -74,7 +74,7 @@
       "isFork": false,
       "updatedAt": "2026-06-17T14:10:29Z",
       "pushedAt": "2026-06-17T14:10:33Z",
-      "activityScore": 9909
+      "activityScore": 9901
     },
     {
       "name": "xl-converter",
@@ -94,7 +94,7 @@
       "isFork": true,
       "updatedAt": "2026-06-15T15:49:05Z",
       "pushedAt": "2026-06-15T15:49:08Z",
-      "activityScore": 2761
+      "activityScore": 2753
     },
     {
       "name": "frappe-skill-package",
@@ -114,7 +114,7 @@
       "isFork": true,
       "updatedAt": "2026-06-15T13:30:11Z",
       "pushedAt": "2026-06-15T13:30:59Z",
-      "activityScore": 1688
+      "activityScore": 1680
     }
   ]
 }

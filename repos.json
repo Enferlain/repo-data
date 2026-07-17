@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:05:59.740Z",
+  "generatedAt": "2026-07-17T19:35:41.467Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -20,9 +20,9 @@
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 18,
+      "commits": 20,
       "totalCommits": null,
-      "recentCommits": 18,
+      "recentCommits": 20,
       "refs": [
         "adapter-layer"
       ],
@@ -31,9 +31,29 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-07-17T00:39:36Z",
-      "pushedAt": "2026-07-17T00:39:43Z",
-      "activityScore": 19250
+      "updatedAt": "2026-07-17T18:08:37Z",
+      "pushedAt": "2026-07-17T18:08:46Z",
+      "activityScore": 21268
+    },
+    {
+      "name": "review-mcp",
+      "fullName": "Enferlain/review-mcp",
+      "url": "https://github.com/Enferlain/review-mcp",
+      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
+      "commits": 1,
+      "totalCommits": null,
+      "recentCommits": 1,
+      "refs": [
+        "codex"
+      ],
+      "scannedBranches": 2,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-07-17T16:38:40Z",
+      "pushedAt": "2026-07-17T16:38:42Z",
+      "activityScore": 2196
     },
     {
       "name": "heretic",
@@ -53,27 +73,7 @@
       "isFork": true,
       "updatedAt": "2026-06-18T12:46:43Z",
       "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 2183
-    },
-    {
-      "name": "review-mcp",
-      "fullName": "Enferlain/review-mcp",
-      "url": "https://github.com/Enferlain/review-mcp",
-      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 2,
-      "totalCommits": null,
-      "recentCommits": 2,
-      "refs": [
-        "codex"
-      ],
-      "scannedBranches": 2,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-06-17T14:10:29Z",
-      "pushedAt": "2026-06-17T14:10:33Z",
-      "activityScore": 2150
+      "activityScore": 2175
     }
   ]
 }

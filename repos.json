@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T08:30:18.566Z",
+  "generatedAt": "2026-07-17T14:05:59.740Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,37 +33,16 @@
       "isFork": true,
       "updatedAt": "2026-07-17T00:39:36Z",
       "pushedAt": "2026-07-17T00:39:43Z",
-      "activityScore": 19259
-    },
-    {
-      "name": "review-mcp",
-      "fullName": "Enferlain/review-mcp",
-      "url": "https://github.com/Enferlain/review-mcp",
-      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 5,
-      "totalCommits": null,
-      "recentCommits": 5,
-      "refs": [
-        "codex",
-        "main"
-      ],
-      "scannedBranches": 2,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-06-17T14:10:29Z",
-      "pushedAt": "2026-06-17T14:10:33Z",
-      "activityScore": 5308
+      "activityScore": 19250
     },
     {
       "name": "heretic",
       "fullName": "Enferlain/heretic",
       "url": "https://github.com/Enferlain/heretic",
       "description": "Fully automatic censorship removal for language models",
-      "commits": 4,
+      "commits": 2,
       "totalCommits": null,
-      "recentCommits": 4,
+      "recentCommits": 2,
       "refs": [
         "master"
       ],
@@ -74,7 +53,27 @@
       "isFork": true,
       "updatedAt": "2026-06-18T12:46:43Z",
       "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 4191
+      "activityScore": 2183
+    },
+    {
+      "name": "review-mcp",
+      "fullName": "Enferlain/review-mcp",
+      "url": "https://github.com/Enferlain/review-mcp",
+      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
+      "commits": 2,
+      "totalCommits": null,
+      "recentCommits": 2,
+      "refs": [
+        "codex"
+      ],
+      "scannedBranches": 2,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-06-17T14:10:29Z",
+      "pushedAt": "2026-06-17T14:10:33Z",
+      "activityScore": 2150
     }
   ]
 }

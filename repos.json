@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T03:36:54.940Z",
+  "generatedAt": "2026-07-18T08:11:13.298Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,7 @@
       "isFork": true,
       "updatedAt": "2026-07-17T18:08:37Z",
       "pushedAt": "2026-07-17T18:08:46Z",
-      "activityScore": 21256
+      "activityScore": 21250
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -53,16 +53,16 @@
       "isFork": false,
       "updatedAt": "2026-07-18T03:08:32Z",
       "pushedAt": "2026-07-18T03:08:35Z",
-      "activityScore": 3754
+      "activityScore": 3748
     },
     {
       "name": "z-tipo-extension",
       "fullName": "Enferlain/z-tipo-extension",
       "url": "https://github.com/Enferlain/z-tipo-extension",
       "description": "A sd-webui extension for utilizing DanTagGen to \"upsample prompts\".",
-      "commits": 1,
+      "commits": 2,
       "totalCommits": null,
-      "recentCommits": 1,
+      "recentCommits": 2,
       "refs": [
         "custom"
       ],
@@ -71,9 +71,9 @@
       "forks": 0,
       "language": "",
       "isFork": true,
-      "updatedAt": "2026-07-18T03:09:18Z",
-      "pushedAt": "2026-07-18T03:09:24Z",
-      "activityScore": 2199
+      "updatedAt": "2026-07-18T03:43:32Z",
+      "pushedAt": "2026-07-18T03:43:39Z",
+      "activityScore": 3193
     },
     {
       "name": "review-mcp",
@@ -93,7 +93,7 @@
       "isFork": false,
       "updatedAt": "2026-07-17T16:38:40Z",
       "pushedAt": "2026-07-17T16:38:42Z",
-      "activityScore": 2184
+      "activityScore": 2177
     },
     {
       "name": "heretic",
@@ -113,7 +113,7 @@
       "isFork": true,
       "updatedAt": "2026-06-18T12:46:43Z",
       "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 2163
+      "activityScore": 2157
     }
   ]
 }

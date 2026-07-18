@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T08:11:13.298Z",
+  "generatedAt": "2026-07-18T13:52:53.983Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,7 @@
       "isFork": true,
       "updatedAt": "2026-07-17T18:08:37Z",
       "pushedAt": "2026-07-17T18:08:46Z",
-      "activityScore": 21250
+      "activityScore": 21241
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -53,7 +53,7 @@
       "isFork": false,
       "updatedAt": "2026-07-18T03:08:32Z",
       "pushedAt": "2026-07-18T03:08:35Z",
-      "activityScore": 3748
+      "activityScore": 3739
     },
     {
       "name": "z-tipo-extension",
@@ -73,7 +73,7 @@
       "isFork": true,
       "updatedAt": "2026-07-18T03:43:32Z",
       "pushedAt": "2026-07-18T03:43:39Z",
-      "activityScore": 3193
+      "activityScore": 3185
     },
     {
       "name": "review-mcp",
@@ -93,27 +93,7 @@
       "isFork": false,
       "updatedAt": "2026-07-17T16:38:40Z",
       "pushedAt": "2026-07-17T16:38:42Z",
-      "activityScore": 2177
-    },
-    {
-      "name": "heretic",
-      "fullName": "Enferlain/heretic",
-      "url": "https://github.com/Enferlain/heretic",
-      "description": "Fully automatic censorship removal for language models",
-      "commits": 2,
-      "totalCommits": null,
-      "recentCommits": 2,
-      "refs": [
-        "master"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "isFork": true,
-      "updatedAt": "2026-06-18T12:46:43Z",
-      "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 2157
+      "activityScore": 2169
     }
   ]
 }

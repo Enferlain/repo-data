@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T19:35:41.467Z",
+  "generatedAt": "2026-07-18T03:36:54.940Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,47 @@
       "isFork": true,
       "updatedAt": "2026-07-17T18:08:37Z",
       "pushedAt": "2026-07-17T18:08:46Z",
-      "activityScore": 21268
+      "activityScore": 21256
+    },
+    {
+      "name": "ComfyUI-A1111-cond",
+      "fullName": "Enferlain/ComfyUI-A1111-cond",
+      "url": "https://github.com/Enferlain/ComfyUI-A1111-cond",
+      "description": "a1111 like conditioning and other extra suff",
+      "commits": 2,
+      "totalCommits": null,
+      "recentCommits": 2,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 2,
+      "stars": 6,
+      "forks": 3,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-07-18T03:08:32Z",
+      "pushedAt": "2026-07-18T03:08:35Z",
+      "activityScore": 3754
+    },
+    {
+      "name": "z-tipo-extension",
+      "fullName": "Enferlain/z-tipo-extension",
+      "url": "https://github.com/Enferlain/z-tipo-extension",
+      "description": "A sd-webui extension for utilizing DanTagGen to \"upsample prompts\".",
+      "commits": 1,
+      "totalCommits": null,
+      "recentCommits": 1,
+      "refs": [
+        "custom"
+      ],
+      "scannedBranches": 2,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "isFork": true,
+      "updatedAt": "2026-07-18T03:09:18Z",
+      "pushedAt": "2026-07-18T03:09:24Z",
+      "activityScore": 2199
     },
     {
       "name": "review-mcp",
@@ -53,7 +93,7 @@
       "isFork": false,
       "updatedAt": "2026-07-17T16:38:40Z",
       "pushedAt": "2026-07-17T16:38:42Z",
-      "activityScore": 2196
+      "activityScore": 2184
     },
     {
       "name": "heretic",
@@ -73,7 +113,7 @@
       "isFork": true,
       "updatedAt": "2026-06-18T12:46:43Z",
       "pushedAt": "2026-06-21T10:31:39Z",
-      "activityScore": 2175
+      "activityScore": 2163
     }
   ]
 }

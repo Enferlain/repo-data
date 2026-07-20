@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:35:47.640Z",
+  "generatedAt": "2026-07-20T04:07:55.622Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -20,9 +20,9 @@
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 23,
+      "commits": 26,
       "totalCommits": null,
-      "recentCommits": 23,
+      "recentCommits": 26,
       "refs": [
         "adapter-layer"
       ],
@@ -31,9 +31,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-07-19T00:29:06Z",
-      "pushedAt": "2026-07-19T00:29:14Z",
-      "activityScore": 24242
+      "updatedAt": "2026-07-20T02:04:31Z",
+      "pushedAt": "2026-07-20T02:04:40Z",
+      "activityScore": 27267
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -53,7 +53,7 @@
       "isFork": false,
       "updatedAt": "2026-07-18T03:08:32Z",
       "pushedAt": "2026-07-18T03:08:35Z",
-      "activityScore": 3766
+      "activityScore": 3754
     },
     {
       "name": "z-tipo-extension",
@@ -73,7 +73,7 @@
       "isFork": true,
       "updatedAt": "2026-07-18T03:43:32Z",
       "pushedAt": "2026-07-18T03:43:39Z",
-      "activityScore": 3142
+      "activityScore": 3129
     },
     {
       "name": "review-mcp",
@@ -93,7 +93,7 @@
       "isFork": false,
       "updatedAt": "2026-07-17T16:38:40Z",
       "pushedAt": "2026-07-17T16:38:42Z",
-      "activityScore": 2126
+      "activityScore": 2113
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T14:05:01.699Z",
+  "generatedAt": "2026-07-25T19:37:03.488Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,7 @@
       "isFork": true,
       "updatedAt": "2026-07-22T02:32:52Z",
       "pushedAt": "2026-07-22T02:33:00Z",
-      "activityScore": 24148
+      "activityScore": 24140
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -53,7 +53,7 @@
       "isFork": false,
       "updatedAt": "2026-07-25T03:10:07Z",
       "pushedAt": "2026-07-25T03:10:09Z",
-      "activityScore": 5809
+      "activityScore": 5801
     },
     {
       "name": "z-tipo-extension",
@@ -73,7 +73,27 @@
       "isFork": true,
       "updatedAt": "2026-07-18T03:43:32Z",
       "pushedAt": "2026-07-18T03:43:39Z",
-      "activityScore": 2940
+      "activityScore": 2932
+    },
+    {
+      "name": "ComfyUI-extra-schedulers",
+      "fullName": "Enferlain/ComfyUI-extra-schedulers",
+      "url": "https://github.com/Enferlain/ComfyUI-extra-schedulers",
+      "description": "some stuff",
+      "commits": 1,
+      "totalCommits": null,
+      "recentCommits": 1,
+      "refs": [
+        "agent/native-dense-schedulers"
+      ],
+      "scannedBranches": 2,
+      "stars": 1,
+      "forks": 1,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-07-25T16:59:56Z",
+      "pushedAt": "2026-07-25T17:00:04Z",
+      "activityScore": 2311
     },
     {
       "name": "review-mcp",
@@ -93,7 +113,7 @@
       "isFork": false,
       "updatedAt": "2026-07-17T16:38:40Z",
       "pushedAt": "2026-07-17T16:38:42Z",
-      "activityScore": 1924
+      "activityScore": 1916
     }
   ]
 }

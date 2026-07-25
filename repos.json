@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T19:49:48.442Z",
+  "generatedAt": "2026-07-25T03:42:17.341Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,16 +33,16 @@
       "isFork": true,
       "updatedAt": "2026-07-22T02:32:52Z",
       "pushedAt": "2026-07-22T02:33:00Z",
-      "activityScore": 24175
+      "activityScore": 24163
     },
     {
       "name": "ComfyUI-A1111-cond",
       "fullName": "Enferlain/ComfyUI-A1111-cond",
       "url": "https://github.com/Enferlain/ComfyUI-A1111-cond",
       "description": "a1111 like conditioning and other extra suff",
-      "commits": 2,
+      "commits": 4,
       "totalCommits": null,
-      "recentCommits": 2,
+      "recentCommits": 4,
       "refs": [
         "main"
       ],
@@ -51,9 +51,9 @@
       "forks": 3,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-07-18T03:08:32Z",
-      "pushedAt": "2026-07-18T03:08:35Z",
-      "activityScore": 3591
+      "updatedAt": "2026-07-25T03:10:07Z",
+      "pushedAt": "2026-07-25T03:10:09Z",
+      "activityScore": 5824
     },
     {
       "name": "z-tipo-extension",
@@ -73,7 +73,7 @@
       "isFork": true,
       "updatedAt": "2026-07-18T03:43:32Z",
       "pushedAt": "2026-07-18T03:43:39Z",
-      "activityScore": 2967
+      "activityScore": 2955
     },
     {
       "name": "review-mcp",
@@ -93,7 +93,7 @@
       "isFork": false,
       "updatedAt": "2026-07-17T16:38:40Z",
       "pushedAt": "2026-07-17T16:38:42Z",
-      "activityScore": 1950
+      "activityScore": 1939
     }
   ]
 }

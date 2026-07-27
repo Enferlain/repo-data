@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T04:06:16.465Z",
+  "generatedAt": "2026-07-27T10:11:15.720Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -33,7 +33,7 @@
       "isFork": true,
       "updatedAt": "2026-07-22T02:32:52Z",
       "pushedAt": "2026-07-22T02:33:00Z",
-      "activityScore": 22093
+      "activityScore": 22084
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -53,7 +53,7 @@
       "isFork": false,
       "updatedAt": "2026-07-25T03:10:07Z",
       "pushedAt": "2026-07-25T03:10:09Z",
-      "activityScore": 5754
+      "activityScore": 5745
     },
     {
       "name": "z-tipo-extension",
@@ -73,7 +73,7 @@
       "isFork": true,
       "updatedAt": "2026-07-18T03:43:32Z",
       "pushedAt": "2026-07-18T03:43:39Z",
-      "activityScore": 2884
+      "activityScore": 2876
     },
     {
       "name": "ComfyUI-extra-schedulers",
@@ -93,7 +93,7 @@
       "isFork": false,
       "updatedAt": "2026-07-25T16:59:56Z",
       "pushedAt": "2026-07-25T17:00:04Z",
-      "activityScore": 2264
+      "activityScore": 2255
     },
     {
       "name": "review-mcp",
@@ -113,7 +113,7 @@
       "isFork": false,
       "updatedAt": "2026-07-17T16:38:40Z",
       "pushedAt": "2026-07-17T16:38:42Z",
-      "activityScore": 1868
+      "activityScore": 1859
     }
   ]
 }

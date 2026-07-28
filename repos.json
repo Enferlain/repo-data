@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:42:26.431Z",
+  "generatedAt": "2026-07-28T19:55:09.925Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -34,16 +34,16 @@
       "isFork": true,
       "updatedAt": "2026-07-28T05:01:54Z",
       "pushedAt": "2026-07-28T05:02:04Z",
-      "activityScore": 316336
+      "activityScore": 316328
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 20,
+      "commits": 18,
       "totalCommits": null,
-      "recentCommits": 20,
+      "recentCommits": 18,
       "refs": [
         "adapter-layer"
       ],
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-07-22T02:32:52Z",
       "pushedAt": "2026-07-22T02:33:00Z",
-      "activityScore": 21042
+      "activityScore": 19035
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -74,7 +74,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7759
+      "activityScore": 7752
     },
     {
       "name": "z-tipo-extension",
@@ -94,7 +94,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 5178
+      "activityScore": 5171
     },
     {
       "name": "ComfyUI-extra-schedulers",
@@ -115,7 +115,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:49:51Z",
       "pushedAt": "2026-07-28T00:49:51Z",
-      "activityScore": 4445
+      "activityScore": 4437
     }
   ]
 }

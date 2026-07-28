@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T03:40:44.954Z",
+  "generatedAt": "2026-07-28T09:08:19.250Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -20,9 +20,9 @@
       "fullName": "Enferlain/codebase-memory-mcp",
       "url": "https://github.com/Enferlain/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 314,
+      "commits": 315,
       "totalCommits": null,
-      "recentCommits": 314,
+      "recentCommits": 315,
       "refs": [
         "fork/usable-graph",
         "main"
@@ -32,9 +32,9 @@
       "forks": 0,
       "language": "",
       "isFork": true,
-      "updatedAt": "2026-07-28T01:59:56Z",
-      "pushedAt": "2026-07-28T02:01:01Z",
-      "activityScore": 315348
+      "updatedAt": "2026-07-28T05:01:54Z",
+      "pushedAt": "2026-07-28T05:02:04Z",
+      "activityScore": 316344
     },
     {
       "name": "sd-scripts",
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-07-22T02:32:52Z",
       "pushedAt": "2026-07-22T02:33:00Z",
-      "activityScore": 21058
+      "activityScore": 21050
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -74,7 +74,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7821
+      "activityScore": 7813
     },
     {
       "name": "z-tipo-extension",
@@ -94,7 +94,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 5195
+      "activityScore": 5187
     },
     {
       "name": "ComfyUI-extra-schedulers",
@@ -115,7 +115,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:49:51Z",
       "pushedAt": "2026-07-28T00:49:51Z",
-      "activityScore": 4461
+      "activityScore": 4453
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T19:58:08.581Z",
+  "generatedAt": "2026-07-28T03:40:44.954Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -20,29 +20,30 @@
       "fullName": "Enferlain/codebase-memory-mcp",
       "url": "https://github.com/Enferlain/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 300,
+      "commits": 314,
       "totalCommits": null,
-      "recentCommits": 300,
+      "recentCommits": 314,
       "refs": [
+        "fork/usable-graph",
         "main"
       ],
-      "scannedBranches": 1,
+      "scannedBranches": 2,
       "stars": 0,
       "forks": 0,
       "language": "",
       "isFork": true,
-      "updatedAt": "2026-07-27T06:58:28Z",
-      "pushedAt": "2026-07-27T06:58:28Z",
-      "activityScore": 301181
+      "updatedAt": "2026-07-28T01:59:56Z",
+      "pushedAt": "2026-07-28T02:01:01Z",
+      "activityScore": 315348
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 21,
+      "commits": 20,
       "totalCommits": null,
-      "recentCommits": 21,
+      "recentCommits": 20,
       "refs": [
         "adapter-layer"
       ],
@@ -53,16 +54,16 @@
       "isFork": true,
       "updatedAt": "2026-07-22T02:32:52Z",
       "pushedAt": "2026-07-22T02:33:00Z",
-      "activityScore": 22070
+      "activityScore": 21058
     },
     {
       "name": "ComfyUI-A1111-cond",
       "fullName": "Enferlain/ComfyUI-A1111-cond",
       "url": "https://github.com/Enferlain/ComfyUI-A1111-cond",
       "description": "a1111 like conditioning and other extra suff",
-      "commits": 4,
+      "commits": 6,
       "totalCommits": null,
-      "recentCommits": 4,
+      "recentCommits": 6,
       "refs": [
         "main"
       ],
@@ -71,18 +72,18 @@
       "forks": 3,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-07-25T03:10:07Z",
-      "pushedAt": "2026-07-25T03:10:09Z",
-      "activityScore": 5731
+      "updatedAt": "2026-07-28T00:36:39Z",
+      "pushedAt": "2026-07-28T00:36:41Z",
+      "activityScore": 7821
     },
     {
       "name": "z-tipo-extension",
       "fullName": "Enferlain/z-tipo-extension",
       "url": "https://github.com/Enferlain/z-tipo-extension",
       "description": "A sd-webui extension for utilizing DanTagGen to \"upsample prompts\".",
-      "commits": 2,
+      "commits": 4,
       "totalCommits": null,
-      "recentCommits": 2,
+      "recentCommits": 4,
       "refs": [
         "custom"
       ],
@@ -91,29 +92,30 @@
       "forks": 0,
       "language": "",
       "isFork": true,
-      "updatedAt": "2026-07-18T03:43:32Z",
-      "pushedAt": "2026-07-18T03:43:39Z",
-      "activityScore": 2861
+      "updatedAt": "2026-07-27T23:57:26Z",
+      "pushedAt": "2026-07-27T23:57:33Z",
+      "activityScore": 5195
     },
     {
       "name": "ComfyUI-extra-schedulers",
       "fullName": "Enferlain/ComfyUI-extra-schedulers",
       "url": "https://github.com/Enferlain/ComfyUI-extra-schedulers",
       "description": "some stuff",
-      "commits": 1,
+      "commits": 3,
       "totalCommits": null,
-      "recentCommits": 1,
+      "recentCommits": 3,
       "refs": [
-        "agent/native-dense-schedulers"
+        "agent/native-dense-schedulers",
+        "main"
       ],
       "scannedBranches": 2,
       "stars": 1,
       "forks": 1,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-07-25T16:59:56Z",
-      "pushedAt": "2026-07-25T17:00:04Z",
-      "activityScore": 2241
+      "updatedAt": "2026-07-28T00:49:51Z",
+      "pushedAt": "2026-07-28T00:49:51Z",
+      "activityScore": 4461
     }
   ]
 }

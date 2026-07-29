@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T19:55:09.925Z",
+  "generatedAt": "2026-07-29T03:44:26.985Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -20,41 +20,46 @@
       "fullName": "Enferlain/codebase-memory-mcp",
       "url": "https://github.com/Enferlain/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 315,
+      "commits": 329,
       "totalCommits": null,
-      "recentCommits": 315,
+      "recentCommits": 329,
       "refs": [
+        "fix/1196-unlabeled-candidate-limit",
+        "fix/1276-python-weak-member-calls",
+        "fix/1284-list-valued-fields",
+        "fix/1287-persisted-coverage-summary",
         "fork/usable-graph",
         "main"
       ],
-      "scannedBranches": 2,
+      "scannedBranches": 6,
       "stars": 0,
       "forks": 0,
       "language": "",
       "isFork": true,
-      "updatedAt": "2026-07-28T05:01:54Z",
-      "pushedAt": "2026-07-28T05:02:04Z",
-      "activityScore": 316328
+      "updatedAt": "2026-07-28T20:46:29Z",
+      "pushedAt": "2026-07-28T21:17:55Z",
+      "activityScore": 330940
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 18,
+      "commits": 19,
       "totalCommits": null,
-      "recentCommits": 18,
+      "recentCommits": 19,
       "refs": [
-        "adapter-layer"
+        "adapter-layer",
+        "model-strategy-trainer"
       ],
-      "scannedBranches": 14,
+      "scannedBranches": 15,
       "stars": 1,
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-07-22T02:32:52Z",
-      "pushedAt": "2026-07-22T02:33:00Z",
-      "activityScore": 19035
+      "updatedAt": "2026-07-29T02:27:47Z",
+      "pushedAt": "2026-07-29T02:29:35Z",
+      "activityScore": 20418
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -74,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7752
+      "activityScore": 7740
     },
     {
       "name": "z-tipo-extension",
@@ -94,7 +99,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 5171
+      "activityScore": 5159
     },
     {
       "name": "ComfyUI-extra-schedulers",
@@ -115,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:49:51Z",
       "pushedAt": "2026-07-28T00:49:51Z",
-      "activityScore": 4437
+      "activityScore": 4426
     }
   ]
 }

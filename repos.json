@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T14:33:46.059Z",
+  "generatedAt": "2026-07-29T19:47:38.855Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -38,7 +38,7 @@
       "isFork": true,
       "updatedAt": "2026-07-28T20:46:29Z",
       "pushedAt": "2026-07-28T21:17:55Z",
-      "activityScore": 330924
+      "activityScore": 330916
     },
     {
       "name": "sd-scripts",
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-07-29T02:27:47Z",
       "pushedAt": "2026-07-29T02:29:35Z",
-      "activityScore": 20402
+      "activityScore": 20395
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -79,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7725
+      "activityScore": 7717
     },
     {
       "name": "z-tipo-extension",
@@ -99,7 +99,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 5144
+      "activityScore": 5136
     },
     {
       "name": "ComfyUI-extra-schedulers",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:49:51Z",
       "pushedAt": "2026-07-28T00:49:51Z",
-      "activityScore": 4410
+      "activityScore": 4402
     }
   ]
 }

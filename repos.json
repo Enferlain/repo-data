@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:39:53.356Z",
+  "generatedAt": "2026-07-31T19:56:23.266Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -20,9 +20,9 @@
       "fullName": "Enferlain/codebase-memory-mcp",
       "url": "https://github.com/Enferlain/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 329,
+      "commits": 428,
       "totalCommits": null,
-      "recentCommits": 329,
+      "recentCommits": 428,
       "refs": [
         "fix/1196-unlabeled-candidate-limit",
         "fix/1276-python-weak-member-calls",
@@ -36,9 +36,9 @@
       "forks": 0,
       "language": "",
       "isFork": true,
-      "updatedAt": "2026-07-28T20:46:29Z",
-      "pushedAt": "2026-07-28T21:17:55Z",
-      "activityScore": 330854
+      "updatedAt": "2026-07-31T18:48:39Z",
+      "pushedAt": "2026-07-31T19:00:12Z",
+      "activityScore": 429948
     },
     {
       "name": "sd-scripts",
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-07-30T21:15:39Z",
       "pushedAt": "2026-07-30T21:15:46Z",
-      "activityScore": 21395
+      "activityScore": 21387
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -79,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7655
+      "activityScore": 7647
     },
     {
       "name": "z-tipo-extension",
@@ -99,7 +99,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 5074
+      "activityScore": 5066
     },
     {
       "name": "ComfyUI-extra-schedulers",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:49:51Z",
       "pushedAt": "2026-07-28T00:49:51Z",
-      "activityScore": 4340
+      "activityScore": 4332
     }
   ]
 }

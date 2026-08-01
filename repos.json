@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T19:56:23.266Z",
+  "generatedAt": "2026-08-01T03:54:17.647Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -38,16 +38,16 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 429948
+      "activityScore": 429937
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 20,
+      "commits": 22,
       "totalCommits": null,
-      "recentCommits": 20,
+      "recentCommits": 22,
       "refs": [
         "adapter-layer",
         "model-strategy-trainer"
@@ -57,9 +57,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-07-30T21:15:39Z",
-      "pushedAt": "2026-07-30T21:15:46Z",
-      "activityScore": 21387
+      "updatedAt": "2026-08-01T03:17:54Z",
+      "pushedAt": "2026-08-01T03:18:00Z",
+      "activityScore": 23419
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -79,7 +79,28 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7647
+      "activityScore": 7635
+    },
+    {
+      "name": "review-mcp",
+      "fullName": "Enferlain/review-mcp",
+      "url": "https://github.com/Enferlain/review-mcp",
+      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
+      "commits": 4,
+      "totalCommits": null,
+      "recentCommits": 4,
+      "refs": [
+        "codex",
+        "main"
+      ],
+      "scannedBranches": 2,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-08-01T02:51:45Z",
+      "pushedAt": "2026-08-01T02:52:15Z",
+      "activityScore": 5348
     },
     {
       "name": "z-tipo-extension",
@@ -99,28 +120,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 5066
-    },
-    {
-      "name": "ComfyUI-extra-schedulers",
-      "fullName": "Enferlain/ComfyUI-extra-schedulers",
-      "url": "https://github.com/Enferlain/ComfyUI-extra-schedulers",
-      "description": "some stuff",
-      "commits": 3,
-      "totalCommits": null,
-      "recentCommits": 3,
-      "refs": [
-        "agent/native-dense-schedulers",
-        "main"
-      ],
-      "scannedBranches": 2,
-      "stars": 1,
-      "forks": 1,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-07-28T00:49:51Z",
-      "pushedAt": "2026-07-28T00:49:51Z",
-      "activityScore": 4332
+      "activityScore": 5054
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T08:35:30.190Z",
+  "generatedAt": "2026-08-01T19:37:23.188Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -38,7 +38,7 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 429930
+      "activityScore": 429914
     },
     {
       "name": "sd-scripts",
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-08-01T03:17:54Z",
       "pushedAt": "2026-08-01T03:18:00Z",
-      "activityScore": 23412
+      "activityScore": 23396
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -79,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7628
+      "activityScore": 7612
     },
     {
       "name": "review-mcp",
@@ -100,7 +100,7 @@
       "isFork": false,
       "updatedAt": "2026-08-01T02:51:45Z",
       "pushedAt": "2026-08-01T02:52:15Z",
-      "activityScore": 5342
+      "activityScore": 5326
     },
     {
       "name": "z-tipo-extension",
@@ -120,7 +120,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 5047
+      "activityScore": 5031
     }
   ]
 }

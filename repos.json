@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:38:15.273Z",
+  "generatedAt": "2026-08-03T03:59:32.046Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -38,16 +38,16 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 429879
+      "activityScore": 429867
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 22,
+      "commits": 20,
       "totalCommits": null,
-      "recentCommits": 22,
+      "recentCommits": 20,
       "refs": [
         "adapter-layer",
         "model-strategy-trainer"
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-08-01T03:17:54Z",
       "pushedAt": "2026-08-01T03:18:00Z",
-      "activityScore": 23361
+      "activityScore": 21349
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -79,16 +79,16 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7577
+      "activityScore": 7565
     },
     {
       "name": "review-mcp",
       "fullName": "Enferlain/review-mcp",
       "url": "https://github.com/Enferlain/review-mcp",
       "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 4,
+      "commits": 5,
       "totalCommits": null,
-      "recentCommits": 4,
+      "recentCommits": 5,
       "refs": [
         "codex",
         "main"
@@ -98,9 +98,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-08-01T02:51:45Z",
-      "pushedAt": "2026-08-01T02:52:15Z",
-      "activityScore": 5291
+      "updatedAt": "2026-08-02T23:23:41Z",
+      "pushedAt": "2026-08-02T23:23:46Z",
+      "activityScore": 6343
     },
     {
       "name": "z-tipo-extension",
@@ -120,7 +120,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 4996
+      "activityScore": 4984
     }
   ]
 }

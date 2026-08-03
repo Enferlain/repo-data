@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:08:19.353Z",
+  "generatedAt": "2026-08-03T20:01:45.710Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-commits-since",
@@ -38,7 +38,7 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 429858
+      "activityScore": 429843
     },
     {
       "name": "sd-scripts",
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-08-01T03:17:54Z",
       "pushedAt": "2026-08-01T03:18:00Z",
-      "activityScore": 21340
+      "activityScore": 21326
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -79,16 +79,16 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7626
+      "activityScore": 7612
     },
     {
       "name": "review-mcp",
       "fullName": "Enferlain/review-mcp",
       "url": "https://github.com/Enferlain/review-mcp",
       "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 5,
+      "commits": 6,
       "totalCommits": null,
-      "recentCommits": 5,
+      "recentCommits": 6,
       "refs": [
         "codex",
         "main"
@@ -98,9 +98,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-08-02T23:23:41Z",
-      "pushedAt": "2026-08-02T23:23:46Z",
-      "activityScore": 6334
+      "updatedAt": "2026-08-03T19:49:33Z",
+      "pushedAt": "2026-08-03T20:00:45Z",
+      "activityScore": 7350
     },
     {
       "name": "z-tipo-extension",
@@ -120,7 +120,7 @@
       "isFork": true,
       "updatedAt": "2026-07-27T23:57:26Z",
       "pushedAt": "2026-07-27T23:57:33Z",
-      "activityScore": 4975
+      "activityScore": 4961
     }
   ]
 }

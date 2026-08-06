@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-08-05T19:58:07.515Z",
+  "generatedAt": "2026-08-06T03:43:29.317Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
-  "source": "github-repo-branches-commits-since",
+  "source": "github-repo-branches-user-commits-since",
   "rules": {
     "maxRepos": 5,
     "candidateLimit": 15,
     "branchLimit": 20,
+    "commitAuthor": "Enferlain",
     "includeForks": true,
     "includeArchived": false,
     "excludedRepos": [
@@ -15,31 +16,6 @@
     "minRecentCommits": 1
   },
   "repos": [
-    {
-      "name": "codebase-memory-mcp",
-      "fullName": "Enferlain/codebase-memory-mcp",
-      "url": "https://github.com/Enferlain/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 428,
-      "totalCommits": null,
-      "recentCommits": 428,
-      "refs": [
-        "fix/1196-unlabeled-candidate-limit",
-        "fix/1276-python-weak-member-calls",
-        "fix/1284-list-valued-fields",
-        "fix/1287-persisted-coverage-summary",
-        "fork/usable-graph",
-        "main"
-      ],
-      "scannedBranches": 6,
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "isFork": true,
-      "updatedAt": "2026-07-31T18:48:39Z",
-      "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 429773
-    },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
@@ -59,7 +35,51 @@
       "isFork": true,
       "updatedAt": "2026-08-05T01:36:54Z",
       "pushedAt": "2026-08-05T01:37:03Z",
-      "activityScore": 22393
+      "activityScore": 22382
+    },
+    {
+      "name": "data-processing",
+      "fullName": "Enferlain/data-processing",
+      "url": "https://github.com/Enferlain/data-processing",
+      "description": "for all kinds of data for ml related stuff, or maybe not who knows",
+      "commits": 12,
+      "totalCommits": null,
+      "recentCommits": 12,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-08-06T02:51:25Z",
+      "pushedAt": "2026-08-06T02:51:29Z",
+      "activityScore": 13199
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "Enferlain/codebase-memory-mcp",
+      "url": "https://github.com/Enferlain/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "commits": 10,
+      "totalCommits": null,
+      "recentCommits": 10,
+      "refs": [
+        "fix/1196-unlabeled-candidate-limit",
+        "fix/1276-python-weak-member-calls",
+        "fix/1284-list-valued-fields",
+        "fix/1287-persisted-coverage-summary",
+        "fork/usable-graph"
+      ],
+      "scannedBranches": 6,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "isFork": true,
+      "updatedAt": "2026-07-31T18:48:39Z",
+      "pushedAt": "2026-07-31T19:00:12Z",
+      "activityScore": 11612
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -73,13 +93,13 @@
         "main"
       ],
       "scannedBranches": 2,
-      "stars": 8,
+      "stars": 9,
       "forks": 2,
       "language": "Python",
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7542
+      "activityScore": 7600
     },
     {
       "name": "review-mcp",
@@ -100,27 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-08-03T19:49:33Z",
       "pushedAt": "2026-08-03T20:00:45Z",
-      "activityScore": 7280
-    },
-    {
-      "name": "data-processing",
-      "fullName": "Enferlain/data-processing",
-      "url": "https://github.com/Enferlain/data-processing",
-      "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 5,
-      "totalCommits": null,
-      "recentCommits": 5,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-08-04T01:09:40Z",
-      "pushedAt": "2026-08-04T01:09:43Z",
-      "activityScore": 6138
+      "activityScore": 7268
     }
   ]
 }

@@ -114,6 +114,7 @@ async function listRecentCommitsForBranch(fullName, branchName, cutoffIso) {
   for (let page = 1; page <= 3; page += 1) {
     const url = new URL(repoApiUrl(fullName, "/commits"));
     url.searchParams.set("sha", branchName);
+    url.searchParams.set("author", USERNAME);
     url.searchParams.set("since", cutoffIso);
     url.searchParams.set("per_page", "100");
     url.searchParams.set("page", String(page));
@@ -236,11 +237,12 @@ async function main() {
     generatedAt: new Date().toISOString(),
     username: USERNAME,
     maxAgeDays: MAX_AGE_DAYS,
-    source: "github-repo-branches-commits-since",
+    source: "github-repo-branches-user-commits-since",
     rules: {
       maxRepos: MAX_REPOS,
       candidateLimit: CANDIDATE_LIMIT,
       branchLimit: BRANCH_LIMIT,
+      commitAuthor: USERNAME,
       includeForks: INCLUDE_FORKS,
       includeArchived: INCLUDE_ARCHIVED,
       excludedRepos: [...EXCLUDED_REPOS],

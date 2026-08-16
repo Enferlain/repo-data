@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:03:21.776Z",
+  "generatedAt": "2026-08-16T18:49:11.861Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,16 +34,16 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 29112
+      "activityScore": 29104
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 16,
+      "commits": 14,
       "totalCommits": null,
-      "recentCommits": 16,
+      "recentCommits": 14,
       "refs": [
         "adapter-layer",
         "model-strategy-trainer"
@@ -55,16 +55,16 @@
       "isFork": true,
       "updatedAt": "2026-08-05T01:36:54Z",
       "pushedAt": "2026-08-05T01:37:03Z",
-      "activityScore": 17018
+      "activityScore": 15010
     },
     {
       "name": "review-mcp",
       "fullName": "Enferlain/review-mcp",
       "url": "https://github.com/Enferlain/review-mcp",
       "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 13,
+      "commits": 12,
       "totalCommits": null,
-      "recentCommits": 13,
+      "recentCommits": 12,
       "refs": [
         "codex",
         "main"
@@ -76,7 +76,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 14120
+      "activityScore": 13111
     },
     {
       "name": "codebase-memory-mcp",
@@ -100,7 +100,7 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 11248
+      "activityScore": 11240
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 7237
+      "activityScore": 7228
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T01:57:07.908Z",
+  "generatedAt": "2026-08-17T07:25:39.262Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 29094
+      "activityScore": 29086
     },
     {
       "name": "sd-scripts",
@@ -55,7 +55,7 @@
       "isFork": true,
       "updatedAt": "2026-08-05T01:36:54Z",
       "pushedAt": "2026-08-05T01:37:03Z",
-      "activityScore": 15000
+      "activityScore": 14992
     },
     {
       "name": "review-mcp",
@@ -76,7 +76,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 13101
+      "activityScore": 13093
     },
     {
       "name": "codebase-memory-mcp",
@@ -100,16 +100,16 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 11230
+      "activityScore": 11222
     },
     {
       "name": "ComfyUI-A1111-cond",
       "fullName": "Enferlain/ComfyUI-A1111-cond",
       "url": "https://github.com/Enferlain/ComfyUI-A1111-cond",
       "description": "a1111 like conditioning and other extra suff",
-      "commits": 5,
+      "commits": 4,
       "totalCommits": null,
-      "recentCommits": 5,
+      "recentCommits": 4,
       "refs": [
         "main"
       ],
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 6218
+      "activityScore": 5210
     }
   ]
 }

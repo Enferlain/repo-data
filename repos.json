@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:09:14.604Z",
+  "generatedAt": "2026-08-17T19:00:39.290Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,28 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 29077
-    },
-    {
-      "name": "sd-scripts",
-      "fullName": "Enferlain/sd-scripts",
-      "url": "https://github.com/Enferlain/sd-scripts",
-      "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 14,
-      "totalCommits": null,
-      "recentCommits": 14,
-      "refs": [
-        "adapter-layer",
-        "model-strategy-trainer"
-      ],
-      "scannedBranches": 15,
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "isFork": true,
-      "updatedAt": "2026-08-05T01:36:54Z",
-      "pushedAt": "2026-08-05T01:37:03Z",
-      "activityScore": 14983
+      "activityScore": 29069
     },
     {
       "name": "review-mcp",
@@ -76,7 +55,28 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 13085
+      "activityScore": 13076
+    },
+    {
+      "name": "sd-scripts",
+      "fullName": "Enferlain/sd-scripts",
+      "url": "https://github.com/Enferlain/sd-scripts",
+      "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
+      "commits": 12,
+      "totalCommits": null,
+      "recentCommits": 12,
+      "refs": [
+        "adapter-layer",
+        "model-strategy-trainer"
+      ],
+      "scannedBranches": 15,
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "isFork": true,
+      "updatedAt": "2026-08-05T01:36:54Z",
+      "pushedAt": "2026-08-05T01:37:03Z",
+      "activityScore": 12975
     },
     {
       "name": "codebase-memory-mcp",
@@ -100,7 +100,7 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-07-31T19:00:12Z",
-      "activityScore": 11213
+      "activityScore": 11205
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 5202
+      "activityScore": 5193
     }
   ]
 }

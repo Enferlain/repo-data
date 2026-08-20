@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:09:46.510Z",
+  "generatedAt": "2026-08-20T19:03:42.618Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28981
+      "activityScore": 28964
     },
     {
       "name": "review-mcp",
@@ -55,7 +55,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12988
+      "activityScore": 12971
     },
     {
       "name": "codebase-memory-mcp",
@@ -79,16 +79,16 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-08-18T09:21:46Z",
-      "activityScore": 11117
+      "activityScore": 11100
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 7,
+      "commits": 8,
       "totalCommits": null,
-      "recentCommits": 7,
+      "recentCommits": 8,
       "refs": [
         "adapter-layer",
         "model-strategy-trainer"
@@ -98,9 +98,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-08-05T01:36:54Z",
-      "pushedAt": "2026-08-05T01:37:03Z",
-      "activityScore": 7887
+      "updatedAt": "2026-08-20T17:17:47Z",
+      "pushedAt": "2026-08-20T17:17:54Z",
+      "activityScore": 9417
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 5175
+      "activityScore": 5158
     }
   ]
 }

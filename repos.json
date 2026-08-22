@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:59:44.072Z",
+  "generatedAt": "2026-08-22T01:53:11.142Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28929
+      "activityScore": 28919
     },
     {
       "name": "review-mcp",
@@ -55,7 +55,27 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12936
+      "activityScore": 12926
+    },
+    {
+      "name": "sd-scripts",
+      "fullName": "Enferlain/sd-scripts",
+      "url": "https://github.com/Enferlain/sd-scripts",
+      "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
+      "commits": 11,
+      "totalCommits": null,
+      "recentCommits": 11,
+      "refs": [
+        "model-strategy-trainer"
+      ],
+      "scannedBranches": 15,
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "isFork": true,
+      "updatedAt": "2026-08-22T00:18:40Z",
+      "pushedAt": "2026-08-22T00:18:46Z",
+      "activityScore": 12268
     },
     {
       "name": "codebase-memory-mcp",
@@ -79,27 +99,7 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-08-18T09:21:46Z",
-      "activityScore": 11065
-    },
-    {
-      "name": "sd-scripts",
-      "fullName": "Enferlain/sd-scripts",
-      "url": "https://github.com/Enferlain/sd-scripts",
-      "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 8,
-      "totalCommits": null,
-      "recentCommits": 8,
-      "refs": [
-        "model-strategy-trainer"
-      ],
-      "scannedBranches": 15,
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "isFork": true,
-      "updatedAt": "2026-08-21T02:47:36Z",
-      "pushedAt": "2026-08-21T02:47:43Z",
-      "activityScore": 9246
+      "activityScore": 11055
     },
     {
       "name": "ComfyUI-A1111-cond",
@@ -119,7 +119,7 @@
       "isFork": false,
       "updatedAt": "2026-07-28T00:36:39Z",
       "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 5123
+      "activityScore": 5113
     }
   ]
 }

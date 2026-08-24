@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:16:34.511Z",
+  "generatedAt": "2026-08-24T19:03:07.170Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28832
+      "activityScore": 28824
     },
     {
       "name": "sd-scripts",
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-08-24T01:51:34Z",
       "pushedAt": "2026-08-24T01:51:42Z",
-      "activityScore": 15253
+      "activityScore": 15245
     },
     {
       "name": "review-mcp",
@@ -75,7 +75,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12839
+      "activityScore": 12831
     },
     {
       "name": "codebase-memory-mcp",
@@ -99,28 +99,27 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-08-18T09:21:46Z",
-      "activityScore": 10968
+      "activityScore": 10960
     },
     {
-      "name": "ComfyUI-extra-schedulers",
-      "fullName": "Enferlain/ComfyUI-extra-schedulers",
-      "url": "https://github.com/Enferlain/ComfyUI-extra-schedulers",
-      "description": "some stuff",
-      "commits": 3,
+      "name": "ComfyUI-A1111-cond",
+      "fullName": "Enferlain/ComfyUI-A1111-cond",
+      "url": "https://github.com/Enferlain/ComfyUI-A1111-cond",
+      "description": "a1111 like conditioning and other extra suff",
+      "commits": 2,
       "totalCommits": null,
-      "recentCommits": 3,
+      "recentCommits": 2,
       "refs": [
-        "agent/native-dense-schedulers",
         "main"
       ],
       "scannedBranches": 2,
-      "stars": 1,
-      "forks": 1,
+      "stars": 10,
+      "forks": 2,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-07-28T00:49:51Z",
-      "pushedAt": "2026-07-28T00:49:51Z",
-      "activityScore": 3502
+      "updatedAt": "2026-07-28T00:36:39Z",
+      "pushedAt": "2026-07-28T00:36:41Z",
+      "activityScore": 3018
     }
   ]
 }

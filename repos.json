@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:50:37.112Z",
+  "generatedAt": "2026-08-24T07:31:34.715Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,16 +34,16 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28859
+      "activityScore": 28840
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 13,
+      "commits": 14,
       "totalCommits": null,
-      "recentCommits": 13,
+      "recentCommits": 14,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -52,9 +52,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-08-23T05:04:10Z",
-      "pushedAt": "2026-08-23T05:04:16Z",
-      "activityScore": 14250
+      "updatedAt": "2026-08-24T01:51:34Z",
+      "pushedAt": "2026-08-24T01:51:42Z",
+      "activityScore": 15262
     },
     {
       "name": "review-mcp",
@@ -75,7 +75,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12866
+      "activityScore": 12848
     },
     {
       "name": "codebase-memory-mcp",
@@ -99,27 +99,28 @@
       "isFork": true,
       "updatedAt": "2026-07-31T18:48:39Z",
       "pushedAt": "2026-08-18T09:21:46Z",
-      "activityScore": 10995
+      "activityScore": 10976
     },
     {
-      "name": "ComfyUI-A1111-cond",
-      "fullName": "Enferlain/ComfyUI-A1111-cond",
-      "url": "https://github.com/Enferlain/ComfyUI-A1111-cond",
-      "description": "a1111 like conditioning and other extra suff",
-      "commits": 4,
+      "name": "ComfyUI-extra-schedulers",
+      "fullName": "Enferlain/ComfyUI-extra-schedulers",
+      "url": "https://github.com/Enferlain/ComfyUI-extra-schedulers",
+      "description": "some stuff",
+      "commits": 3,
       "totalCommits": null,
-      "recentCommits": 4,
+      "recentCommits": 3,
       "refs": [
+        "agent/native-dense-schedulers",
         "main"
       ],
       "scannedBranches": 2,
-      "stars": 10,
-      "forks": 2,
+      "stars": 1,
+      "forks": 1,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-07-28T00:36:39Z",
-      "pushedAt": "2026-07-28T00:36:41Z",
-      "activityScore": 5053
+      "updatedAt": "2026-07-28T00:49:51Z",
+      "pushedAt": "2026-07-28T00:49:51Z",
+      "activityScore": 3510
     }
   ]
 }

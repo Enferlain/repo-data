@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T09:56:56.773Z",
+  "generatedAt": "2026-08-27T22:24:28.901Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28732
+      "activityScore": 28714
     },
     {
       "name": "sd-scripts",
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 19257
+      "activityScore": 19239
     },
     {
       "name": "review-mcp",
@@ -75,7 +75,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12739
+      "activityScore": 12721
     },
     {
       "name": "hcom",
@@ -95,30 +95,27 @@
       "isFork": true,
       "updatedAt": "2026-08-27T02:50:37Z",
       "pushedAt": "2026-08-27T02:50:43Z",
-      "activityScore": 5190
+      "activityScore": 5171
     },
     {
-      "name": "codebase-memory-mcp",
-      "fullName": "Enferlain/codebase-memory-mcp",
-      "url": "https://github.com/Enferlain/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 4,
+      "name": "codex-observability",
+      "fullName": "Enferlain/codex-observability",
+      "url": "https://github.com/Enferlain/codex-observability",
+      "description": "",
+      "commits": 2,
       "totalCommits": null,
-      "recentCommits": 4,
+      "recentCommits": 2,
       "refs": [
-        "fix/1196-unlabeled-candidate-limit",
-        "fix/1276-python-weak-member-calls",
-        "fix/1284-list-valued-fields",
-        "fix/1287-persisted-coverage-summary"
+        "main"
       ],
-      "scannedBranches": 6,
+      "scannedBranches": 1,
       "stars": 0,
       "forks": 0,
-      "language": "",
-      "isFork": true,
-      "updatedAt": "2026-07-31T18:48:39Z",
-      "pushedAt": "2026-08-18T09:21:46Z",
-      "activityScore": 4718
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-08-11T01:01:13Z",
+      "pushedAt": "2026-08-11T01:01:19Z",
+      "activityScore": 2609
     }
   ]
 }

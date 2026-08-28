@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T11:30:08.259Z",
+  "generatedAt": "2026-08-28T22:26:25.703Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,16 +34,16 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28695
+      "activityScore": 28679
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 17,
+      "commits": 16,
       "totalCommits": null,
-      "recentCommits": 17,
+      "recentCommits": 16,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 18220
+      "activityScore": 17204
     },
     {
       "name": "review-mcp",
@@ -75,16 +75,16 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12702
+      "activityScore": 12686
     },
     {
       "name": "hcom",
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 5,
+      "commits": 7,
       "totalCommits": null,
-      "recentCommits": 5,
+      "recentCommits": 7,
       "refs": [
         "main"
       ],
@@ -93,9 +93,9 @@
       "forks": 0,
       "language": "Rust",
       "isFork": true,
-      "updatedAt": "2026-08-27T23:31:33Z",
-      "pushedAt": "2026-08-27T23:31:39Z",
-      "activityScore": 6183
+      "updatedAt": "2026-08-28T22:10:25Z",
+      "pushedAt": "2026-08-28T22:10:29Z",
+      "activityScore": 8200
     },
     {
       "name": "codex-observability",
@@ -115,7 +115,7 @@
       "isFork": false,
       "updatedAt": "2026-08-11T01:01:13Z",
       "pushedAt": "2026-08-11T01:01:19Z",
-      "activityScore": 2590
+      "activityScore": 2574
     }
   ]
 }

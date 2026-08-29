@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T07:09:31.683Z",
+  "generatedAt": "2026-08-29T16:46:23.619Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28666
+      "activityScore": 28652
     },
     {
       "name": "sd-scripts",
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 17191
+      "activityScore": 17177
     },
     {
       "name": "review-mcp",
@@ -75,7 +75,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12673
+      "activityScore": 12659
     },
     {
       "name": "hcom",
@@ -95,7 +95,7 @@
       "isFork": true,
       "updatedAt": "2026-08-29T05:06:07Z",
       "pushedAt": "2026-08-29T05:07:28Z",
-      "activityScore": 11197
+      "activityScore": 11183
     },
     {
       "name": "codex-observability",
@@ -115,7 +115,7 @@
       "isFork": false,
       "updatedAt": "2026-08-11T01:01:13Z",
       "pushedAt": "2026-08-11T01:01:19Z",
-      "activityScore": 2561
+      "activityScore": 2547
     }
   ]
 }

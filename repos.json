@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T20:58:38.515Z",
+  "generatedAt": "2026-08-30T05:30:19.193Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,16 +34,16 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28646
+      "activityScore": 28633
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 16,
+      "commits": 15,
       "totalCommits": null,
-      "recentCommits": 16,
+      "recentCommits": 15,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -54,7 +54,27 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 17171
+      "activityScore": 16158
+    },
+    {
+      "name": "hcom",
+      "fullName": "Enferlain/hcom",
+      "url": "https://github.com/Enferlain/hcom",
+      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
+      "commits": 12,
+      "totalCommits": null,
+      "recentCommits": 12,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "Rust",
+      "isFork": true,
+      "updatedAt": "2026-08-29T22:35:55Z",
+      "pushedAt": "2026-08-29T22:35:59Z",
+      "activityScore": 13190
     },
     {
       "name": "review-mcp",
@@ -75,47 +95,28 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12653
+      "activityScore": 12641
     },
     {
-      "name": "hcom",
-      "fullName": "Enferlain/hcom",
-      "url": "https://github.com/Enferlain/hcom",
-      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 10,
+      "name": "hermes-llm-usage",
+      "fullName": "Enferlain/hermes-llm-usage",
+      "url": "https://github.com/Enferlain/hermes-llm-usage",
+      "description": "Hermes Desktop plugin: multi-provider LLM plan windows (Claude, Grok, Codex, Nous, Venice)",
+      "commits": 3,
       "totalCommits": null,
-      "recentCommits": 10,
+      "recentCommits": 3,
       "refs": [
-        "main"
+        "add-zai-antigravity",
+        "fix/docked-pane-vanishes"
       ],
-      "scannedBranches": 1,
+      "scannedBranches": 3,
       "stars": 0,
       "forks": 0,
-      "language": "Rust",
+      "language": "",
       "isFork": true,
-      "updatedAt": "2026-08-29T05:06:07Z",
-      "pushedAt": "2026-08-29T05:07:28Z",
-      "activityScore": 11177
-    },
-    {
-      "name": "codex-observability",
-      "fullName": "Enferlain/codex-observability",
-      "url": "https://github.com/Enferlain/codex-observability",
-      "description": "",
-      "commits": 2,
-      "totalCommits": null,
-      "recentCommits": 2,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-08-11T01:01:13Z",
-      "pushedAt": "2026-08-11T01:01:19Z",
-      "activityScore": 2541
+      "updatedAt": "2026-08-30T02:07:54Z",
+      "pushedAt": "2026-08-30T02:08:01Z",
+      "activityScore": 4345
     }
   ]
 }

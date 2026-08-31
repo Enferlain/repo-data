@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T21:12:21.387Z",
+  "generatedAt": "2026-08-31T05:44:16.214Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 28,
+      "commits": 26,
       "totalCommits": null,
-      "recentCommits": 28,
+      "recentCommits": 26,
       "refs": [
         "main"
       ],
@@ -34,16 +34,16 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 28611
+      "activityScore": 26598
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 15,
+      "commits": 13,
       "totalCommits": null,
-      "recentCommits": 15,
+      "recentCommits": 13,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 16135
+      "activityScore": 14123
     },
     {
       "name": "hcom",
@@ -74,18 +74,17 @@
       "isFork": true,
       "updatedAt": "2026-08-29T22:35:55Z",
       "pushedAt": "2026-08-29T22:35:59Z",
-      "activityScore": 13167
+      "activityScore": 13155
     },
     {
       "name": "review-mcp",
       "fullName": "Enferlain/review-mcp",
       "url": "https://github.com/Enferlain/review-mcp",
       "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 12,
+      "commits": 9,
       "totalCommits": null,
-      "recentCommits": 12,
+      "recentCommits": 9,
       "refs": [
-        "codex",
         "main"
       ],
       "scannedBranches": 2,
@@ -95,28 +94,27 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 12618
+      "activityScore": 9455
     },
     {
-      "name": "hermes-llm-usage",
-      "fullName": "Enferlain/hermes-llm-usage",
-      "url": "https://github.com/Enferlain/hermes-llm-usage",
-      "description": "Hermes Desktop plugin: multi-provider LLM plan windows (Claude, Grok, Codex, Nous, Venice)",
-      "commits": 3,
+      "name": "codebase-memory-mcp",
+      "fullName": "Enferlain/codebase-memory-mcp",
+      "url": "https://github.com/Enferlain/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "commits": 4,
       "totalCommits": null,
-      "recentCommits": 3,
+      "recentCommits": 4,
       "refs": [
-        "add-zai-antigravity",
-        "fix/docked-pane-vanishes"
+        "fork/usable-graph-refresh"
       ],
-      "scannedBranches": 3,
+      "scannedBranches": 7,
       "stars": 0,
       "forks": 0,
       "language": "",
       "isFork": true,
-      "updatedAt": "2026-08-30T02:07:54Z",
-      "pushedAt": "2026-08-30T02:08:01Z",
-      "activityScore": 4322
+      "updatedAt": "2026-08-31T02:56:33Z",
+      "pushedAt": "2026-08-31T02:56:37Z",
+      "activityScore": 5196
     }
   ]
 }

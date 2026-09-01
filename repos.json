@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T22:54:31.313Z",
+  "generatedAt": "2026-09-01T05:17:24.376Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 26,
+      "commits": 25,
       "totalCommits": null,
-      "recentCommits": 26,
+      "recentCommits": 25,
       "refs": [
         "main"
       ],
@@ -34,7 +34,27 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 26573
+      "activityScore": 25564
+    },
+    {
+      "name": "hcom",
+      "fullName": "Enferlain/hcom",
+      "url": "https://github.com/Enferlain/hcom",
+      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
+      "commits": 13,
+      "totalCommits": null,
+      "recentCommits": 13,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "Rust",
+      "isFork": true,
+      "updatedAt": "2026-09-01T01:06:54Z",
+      "pushedAt": "2026-09-01T01:06:57Z",
+      "activityScore": 14194
     },
     {
       "name": "sd-scripts",
@@ -54,27 +74,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 14098
-    },
-    {
-      "name": "hcom",
-      "fullName": "Enferlain/hcom",
-      "url": "https://github.com/Enferlain/hcom",
-      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 12,
-      "totalCommits": null,
-      "recentCommits": 12,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "Rust",
-      "isFork": true,
-      "updatedAt": "2026-08-29T22:35:55Z",
-      "pushedAt": "2026-08-29T22:35:59Z",
-      "activityScore": 13130
+      "activityScore": 14089
     },
     {
       "name": "review-mcp",
@@ -94,7 +94,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 9430
+      "activityScore": 9421
     },
     {
       "name": "codebase-memory-mcp",
@@ -114,7 +114,7 @@
       "isFork": true,
       "updatedAt": "2026-08-31T02:56:33Z",
       "pushedAt": "2026-08-31T02:56:37Z",
-      "activityScore": 5171
+      "activityScore": 5162
     }
   ]
 }

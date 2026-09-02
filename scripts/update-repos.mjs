@@ -12,10 +12,10 @@ const EXCLUDED_REPOS = new Set(
     .filter(Boolean),
 );
 
-// Do not use the repo's default GITHUB_TOKEN for discovery.
-// If you hit unauthenticated rate limits, create a fine-grained read-only token
-// and pass it as GITHUB_PUBLIC_TOKEN instead.
-const TOKEN = process.env.GITHUB_PUBLIC_TOKEN || "";
+// Prefer an explicitly supplied read-only token when provided. In GitHub
+// Actions, fall back to the job-scoped GITHUB_TOKEN, which GitHub creates
+// automatically and revokes after the job. No long-lived PAT is required.
+const TOKEN = process.env.GITHUB_PUBLIC_TOKEN || process.env.GITHUB_TOKEN || "";
 
 const headers = {
   Accept: "application/vnd.github+json",

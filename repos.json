@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:39:45.815Z",
+  "generatedAt": "2026-09-02T21:07:32.058Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 25512
+      "activityScore": 25506
     },
     {
       "name": "hcom",
@@ -54,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-09-01T01:06:54Z",
       "pushedAt": "2026-09-01T01:06:57Z",
-      "activityScore": 14142
+      "activityScore": 14136
     },
     {
       "name": "sd-scripts",
@@ -74,16 +74,16 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 14037
+      "activityScore": 14031
     },
     {
       "name": "review-mcp",
       "fullName": "Enferlain/review-mcp",
       "url": "https://github.com/Enferlain/review-mcp",
       "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 8,
+      "commits": 7,
       "totalCommits": null,
-      "recentCommits": 8,
+      "recentCommits": 7,
       "refs": [
         "main"
       ],
@@ -94,27 +94,27 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 8369
+      "activityScore": 7363
     },
     {
-      "name": "codebase-memory-mcp",
-      "fullName": "Enferlain/codebase-memory-mcp",
-      "url": "https://github.com/Enferlain/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 4,
+      "name": "quota-warmup",
+      "fullName": "Enferlain/quota-warmup",
+      "url": "https://github.com/Enferlain/quota-warmup",
+      "description": "for codex glm agy",
+      "commits": 5,
       "totalCommits": null,
-      "recentCommits": 4,
+      "recentCommits": 5,
       "refs": [
-        "fork/usable-graph-refresh"
+        "main"
       ],
-      "scannedBranches": 7,
+      "scannedBranches": 1,
       "stars": 0,
       "forks": 0,
-      "language": "",
-      "isFork": true,
-      "updatedAt": "2026-08-31T02:56:33Z",
-      "pushedAt": "2026-08-31T02:56:37Z",
-      "activityScore": 5110
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-09-02T20:00:46Z",
+      "pushedAt": "2026-09-02T20:00:48Z",
+      "activityScore": 6198
     }
   ]
 }

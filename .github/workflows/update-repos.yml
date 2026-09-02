@@ -25,6 +25,7 @@ jobs:
         run: node scripts/update-repos.mjs
         env:
           GITHUB_USERNAME: Enferlain
+          GITHUB_TOKEN: ${{ github.token }}
           MAX_REPOS: 5
           MAX_AGE_DAYS: 30
           INCLUDE_FORKS: "true"
@@ -32,8 +33,6 @@ jobs:
           EXCLUDED_REPOS: repo-data
           CANDIDATE_LIMIT: 15
           BRANCH_LIMIT: 20
-          # Optional: add a read-only public token as a repo secret if unauthenticated API rate limits bite.
-          # GITHUB_PUBLIC_TOKEN: ${{ secrets.GITHUB_PUBLIC_TOKEN }}
 
       - name: Commit repos.json
         run: |

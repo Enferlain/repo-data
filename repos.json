@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T04:41:02.020Z",
+  "generatedAt": "2026-09-04T11:26:00.080Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 22460
+      "activityScore": 22450
     },
     {
       "name": "hcom",
@@ -45,17 +45,20 @@
       "totalCommits": null,
       "recentCommits": 15,
       "refs": [
+        "fix/expire-thread-membership-14354249233564697325",
+        "github-pr-review-integration-17189192674571470719",
         "hide-filter-wait-7637780051223218206",
+        "issue-3-3093748386067199488",
         "main"
       ],
-      "scannedBranches": 2,
+      "scannedBranches": 5,
       "stars": 0,
       "forks": 0,
       "language": "Rust",
       "isFork": true,
       "updatedAt": "2026-09-03T00:11:37Z",
-      "pushedAt": "2026-09-04T04:31:20Z",
-      "activityScore": 16308
+      "pushedAt": "2026-09-04T05:52:24Z",
+      "activityScore": 16749
     },
     {
       "name": "sd-scripts",
@@ -75,7 +78,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 12984
+      "activityScore": 12975
     },
     {
       "name": "review-mcp",
@@ -95,7 +98,7 @@
       "isFork": false,
       "updatedAt": "2026-08-09T23:10:20Z",
       "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 7317
+      "activityScore": 7307
     },
     {
       "name": "quota-warmup",
@@ -115,7 +118,7 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 7155
+      "activityScore": 7145
     }
   ]
 }

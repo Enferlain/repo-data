@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T20:28:51.829Z",
+  "generatedAt": "2026-09-07T04:51:00.075Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 31,
+      "commits": 32,
       "totalCommits": null,
-      "recentCommits": 31,
+      "recentCommits": 32,
       "refs": [
         "fix/expire-thread-membership-14354249233564697325",
         "github-pr-review-integration-17189192674571470719",
@@ -37,9 +37,9 @@
       "forks": 0,
       "language": "Rust",
       "isFork": true,
-      "updatedAt": "2026-09-06T19:45:14Z",
-      "pushedAt": "2026-09-06T19:52:32Z",
-      "activityScore": 32949
+      "updatedAt": "2026-09-06T21:55:07Z",
+      "pushedAt": "2026-09-06T21:55:57Z",
+      "activityScore": 33940
     },
     {
       "name": "data-processing",
@@ -59,7 +59,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 16367
+      "activityScore": 16354
     },
     {
       "name": "sd-scripts",
@@ -79,27 +79,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 12891
-    },
-    {
-      "name": "review-mcp",
-      "fullName": "Enferlain/review-mcp",
-      "url": "https://github.com/Enferlain/review-mcp",
-      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
-      "commits": 7,
-      "totalCommits": null,
-      "recentCommits": 7,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 2,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-08-09T23:10:20Z",
-      "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 7224
+      "activityScore": 12879
     },
     {
       "name": "quota-warmup",
@@ -119,7 +99,27 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 7062
+      "activityScore": 7050
+    },
+    {
+      "name": "review-mcp",
+      "fullName": "Enferlain/review-mcp",
+      "url": "https://github.com/Enferlain/review-mcp",
+      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
+      "commits": 5,
+      "totalCommits": null,
+      "recentCommits": 5,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 2,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-08-09T23:10:20Z",
+      "pushedAt": "2026-08-09T23:10:24Z",
+      "activityScore": 5212
     }
   ]
 }

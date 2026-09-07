@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T12:43:26.423Z",
+  "generatedAt": "2026-09-07T21:34:31.690Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -39,7 +39,7 @@
       "isFork": true,
       "updatedAt": "2026-09-06T21:55:07Z",
       "pushedAt": "2026-09-06T21:55:57Z",
-      "activityScore": 33928
+      "activityScore": 33916
     },
     {
       "name": "data-processing",
@@ -59,7 +59,7 @@
       "isFork": false,
       "updatedAt": "2026-08-14T00:58:59Z",
       "pushedAt": "2026-08-14T00:59:08Z",
-      "activityScore": 16343
+      "activityScore": 16330
     },
     {
       "name": "sd-scripts",
@@ -79,7 +79,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 12868
+      "activityScore": 12855
     },
     {
       "name": "quota-warmup",
@@ -99,27 +99,27 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 7039
+      "activityScore": 7026
     },
     {
-      "name": "review-mcp",
-      "fullName": "Enferlain/review-mcp",
-      "url": "https://github.com/Enferlain/review-mcp",
-      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
+      "name": "codebase-memory-mcp",
+      "fullName": "Enferlain/codebase-memory-mcp",
+      "url": "https://github.com/Enferlain/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "commits": 5,
       "totalCommits": null,
       "recentCommits": 5,
       "refs": [
-        "main"
+        "fork/usable-graph-refresh"
       ],
-      "scannedBranches": 2,
+      "scannedBranches": 7,
       "stars": 0,
       "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-08-09T23:10:20Z",
-      "pushedAt": "2026-08-09T23:10:24Z",
-      "activityScore": 5200
+      "language": "",
+      "isFork": true,
+      "updatedAt": "2026-09-07T19:36:50Z",
+      "pushedAt": "2026-09-07T19:36:53Z",
+      "activityScore": 6197
     }
   ]
 }

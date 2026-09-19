@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:58:13.256Z",
+  "generatedAt": "2026-09-19T04:43:44.380Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 48,
+      "commits": 49,
       "totalCommits": null,
-      "recentCommits": 48,
+      "recentCommits": 49,
       "refs": [
         "fix/expire-thread-membership-14354249233564697325",
         "github-pr-review-integration-17189192674571470719",
@@ -37,9 +37,9 @@
       "forks": 0,
       "language": "Rust",
       "isFork": true,
-      "updatedAt": "2026-09-15T02:28:08Z",
-      "pushedAt": "2026-09-15T02:28:18Z",
-      "activityScore": 49818
+      "updatedAt": "2026-09-17T05:46:22Z",
+      "pushedAt": "2026-09-18T21:00:26Z",
+      "activityScore": 50882
     },
     {
       "name": "sd-scripts",
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 12471
+      "activityScore": 12459
     },
     {
       "name": "quota-warmup",
@@ -79,7 +79,28 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6642
+      "activityScore": 6630
+    },
+    {
+      "name": "review-mcp",
+      "fullName": "Enferlain/review-mcp",
+      "url": "https://github.com/Enferlain/review-mcp",
+      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
+      "commits": 5,
+      "totalCommits": null,
+      "recentCommits": 5,
+      "refs": [
+        "feat/glm-api-key-alias",
+        "main"
+      ],
+      "scannedBranches": 3,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-09-19T03:06:05Z",
+      "pushedAt": "2026-09-19T03:06:05Z",
+      "activityScore": 6348
     },
     {
       "name": "hermes-gate",
@@ -99,27 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 6165
-    },
-    {
-      "name": "codebase-memory-mcp",
-      "fullName": "Enferlain/codebase-memory-mcp",
-      "url": "https://github.com/Enferlain/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 5,
-      "totalCommits": null,
-      "recentCommits": 5,
-      "refs": [
-        "fork/usable-graph-refresh"
-      ],
-      "scannedBranches": 7,
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "isFork": true,
-      "updatedAt": "2026-09-07T19:36:50Z",
-      "pushedAt": "2026-09-07T19:36:53Z",
-      "activityScore": 5813
+      "activityScore": 6154
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:53:54.730Z",
+  "generatedAt": "2026-09-21T05:05:10.658Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -39,16 +39,16 @@
       "isFork": true,
       "updatedAt": "2026-09-17T05:46:22Z",
       "pushedAt": "2026-09-18T21:00:26Z",
-      "activityScore": 50823
+      "activityScore": 50811
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 10,
+      "commits": 7,
       "totalCommits": null,
-      "recentCommits": 10,
+      "recentCommits": 7,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-08-27T00:54:10Z",
       "pushedAt": "2026-08-27T00:54:17Z",
-      "activityScore": 10401
+      "activityScore": 7389
     },
     {
       "name": "quota-warmup",
@@ -79,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6572
+      "activityScore": 6560
     },
     {
       "name": "review-mcp",
@@ -100,7 +100,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 6289
+      "activityScore": 6277
     },
     {
       "name": "hermes-gate",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 6096
+      "activityScore": 6084
     }
   ]
 }

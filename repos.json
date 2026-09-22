@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:06:22.160Z",
+  "generatedAt": "2026-09-22T11:47:18.930Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 49,
+      "commits": 50,
       "totalCommits": null,
-      "recentCommits": 49,
+      "recentCommits": 50,
       "refs": [
         "fix/expire-thread-membership-14354249233564697325",
         "github-pr-review-integration-17189192674571470719",
@@ -37,9 +37,9 @@
       "forks": 0,
       "language": "Rust",
       "isFork": true,
-      "updatedAt": "2026-09-17T05:46:22Z",
-      "pushedAt": "2026-09-18T21:00:26Z",
-      "activityScore": 50776
+      "updatedAt": "2026-09-22T06:52:10Z",
+      "pushedAt": "2026-09-22T06:52:20Z",
+      "activityScore": 51943
     },
     {
       "name": "sd-scripts",
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-09-21T07:02:35Z",
       "pushedAt": "2026-09-21T07:02:43Z",
-      "activityScore": 8238
+      "activityScore": 8228
     },
     {
       "name": "quota-warmup",
@@ -79,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6525
+      "activityScore": 6515
     },
     {
       "name": "review-mcp",
@@ -100,7 +100,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 6242
+      "activityScore": 6232
     },
     {
       "name": "hermes-gate",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 6049
+      "activityScore": 6039
     }
   ]
 }

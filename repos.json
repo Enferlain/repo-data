@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:24:51.750Z",
+  "generatedAt": "2026-09-23T04:51:21.317Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 50,
+      "commits": 49,
       "totalCommits": null,
-      "recentCommits": 50,
+      "recentCommits": 49,
       "refs": [
         "fix/expire-thread-membership-14354249233564697325",
         "github-pr-review-integration-17189192674571470719",
@@ -39,16 +39,16 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 51929
+      "activityScore": 50918
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 7,
+      "commits": 6,
       "totalCommits": null,
-      "recentCommits": 7,
+      "recentCommits": 6,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-09-21T07:02:35Z",
       "pushedAt": "2026-09-21T07:02:43Z",
-      "activityScore": 8214
+      "activityScore": 7203
     },
     {
       "name": "quota-warmup",
@@ -79,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6501
+      "activityScore": 6490
     },
     {
       "name": "review-mcp",
@@ -100,7 +100,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 6218
+      "activityScore": 6207
     },
     {
       "name": "hermes-gate",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 6025
+      "activityScore": 6014
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T21:39:20.736Z",
+  "generatedAt": "2026-09-26T05:07:15.460Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 49,
+      "commits": 46,
       "totalCommits": null,
-      "recentCommits": 49,
+      "recentCommits": 46,
       "refs": [
         "fix/expire-thread-membership-14354249233564697325",
         "github-pr-review-integration-17189192674571470719",
@@ -39,27 +39,7 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 50823
-    },
-    {
-      "name": "sd-scripts",
-      "fullName": "Enferlain/sd-scripts",
-      "url": "https://github.com/Enferlain/sd-scripts",
-      "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 6,
-      "totalCommits": null,
-      "recentCommits": 6,
-      "refs": [
-        "model-strategy-trainer"
-      ],
-      "scannedBranches": 15,
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "isFork": true,
-      "updatedAt": "2026-09-24T04:56:30Z",
-      "pushedAt": "2026-09-24T04:56:38Z",
-      "activityScore": 7211
+      "activityScore": 47813
     },
     {
       "name": "quota-warmup",
@@ -79,7 +59,7 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6396
+      "activityScore": 6385
     },
     {
       "name": "review-mcp",
@@ -100,7 +80,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 6113
+      "activityScore": 6102
     },
     {
       "name": "hermes-gate",
@@ -120,7 +100,27 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 5919
+      "activityScore": 5909
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "Enferlain/codebase-memory-mcp",
+      "url": "https://github.com/Enferlain/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "commits": 5,
+      "totalCommits": null,
+      "recentCommits": 5,
+      "refs": [
+        "fork/usable-graph-refresh"
+      ],
+      "scannedBranches": 7,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "isFork": true,
+      "updatedAt": "2026-09-07T19:36:50Z",
+      "pushedAt": "2026-09-07T19:36:53Z",
+      "activityScore": 5556
     }
   ]
 }

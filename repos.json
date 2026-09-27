@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T12:10:22.869Z",
+  "generatedAt": "2026-09-27T17:02:20.204Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -39,7 +39,7 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 46767
+      "activityScore": 46760
     },
     {
       "name": "quota-warmup",
@@ -59,7 +59,27 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6339
+      "activityScore": 6332
+    },
+    {
+      "name": "sd-scripts",
+      "fullName": "Enferlain/sd-scripts",
+      "url": "https://github.com/Enferlain/sd-scripts",
+      "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
+      "commits": 5,
+      "totalCommits": null,
+      "recentCommits": 5,
+      "refs": [
+        "model-strategy-trainer"
+      ],
+      "scannedBranches": 15,
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "isFork": true,
+      "updatedAt": "2026-09-27T16:30:33Z",
+      "pushedAt": "2026-09-27T16:30:40Z",
+      "activityScore": 6269
     },
     {
       "name": "review-mcp",
@@ -80,7 +100,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 6057
+      "activityScore": 6050
     },
     {
       "name": "hermes-gate",
@@ -100,27 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 5863
-    },
-    {
-      "name": "codebase-memory-mcp",
-      "fullName": "Enferlain/codebase-memory-mcp",
-      "url": "https://github.com/Enferlain/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 5,
-      "totalCommits": null,
-      "recentCommits": 5,
-      "refs": [
-        "fork/usable-graph-refresh"
-      ],
-      "scannedBranches": 7,
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "isFork": true,
-      "updatedAt": "2026-09-07T19:36:50Z",
-      "pushedAt": "2026-09-07T19:36:53Z",
-      "activityScore": 5511
+      "activityScore": 5856
     }
   ]
 }

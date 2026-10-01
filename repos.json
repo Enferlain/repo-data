@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T06:05:49.884Z",
+  "generatedAt": "2026-10-01T13:28:14.972Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -39,7 +39,7 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 38636
+      "activityScore": 38625
     },
     {
       "name": "sd-scripts",
@@ -59,7 +59,7 @@
       "isFork": true,
       "updatedAt": "2026-10-01T04:00:00Z",
       "pushedAt": "2026-10-01T04:00:08Z",
-      "activityScore": 9267
+      "activityScore": 9256
     },
     {
       "name": "quota-warmup",
@@ -79,7 +79,7 @@
       "isFork": false,
       "updatedAt": "2026-09-02T22:00:32Z",
       "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6208
+      "activityScore": 6197
     },
     {
       "name": "review-mcp",
@@ -100,7 +100,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5926
+      "activityScore": 5915
     },
     {
       "name": "hermes-gate",
@@ -120,7 +120,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 5732
+      "activityScore": 5721
     }
   ]
 }

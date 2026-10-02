@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:47:02.039Z",
+  "generatedAt": "2026-10-02T22:19:22.088Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -39,16 +39,16 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 38591
+      "activityScore": 38577
     },
     {
       "name": "data-processing",
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 21,
+      "commits": 26,
       "totalCommits": null,
-      "recentCommits": 21,
+      "recentCommits": 26,
       "refs": [
         "main"
       ],
@@ -57,9 +57,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-10-02T08:07:27Z",
-      "pushedAt": "2026-10-02T08:07:35Z",
-      "activityScore": 22193
+      "updatedAt": "2026-10-02T17:35:00Z",
+      "pushedAt": "2026-10-02T18:17:19Z",
+      "activityScore": 27193
     },
     {
       "name": "sd-scripts",
@@ -79,27 +79,7 @@
       "isFork": true,
       "updatedAt": "2026-10-01T23:08:25Z",
       "pushedAt": "2026-10-01T23:08:33Z",
-      "activityScore": 10250
-    },
-    {
-      "name": "quota-warmup",
-      "fullName": "Enferlain/quota-warmup",
-      "url": "https://github.com/Enferlain/quota-warmup",
-      "description": "for codex glm agy",
-      "commits": 6,
-      "totalCommits": null,
-      "recentCommits": 6,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-09-02T22:00:32Z",
-      "pushedAt": "2026-09-02T22:00:34Z",
-      "activityScore": 6163
+      "activityScore": 10236
     },
     {
       "name": "review-mcp",
@@ -120,7 +100,27 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5881
+      "activityScore": 5867
+    },
+    {
+      "name": "hermes-gate",
+      "fullName": "Enferlain/hermes-gate",
+      "url": "https://github.com/Enferlain/hermes-gate",
+      "description": "non container security layer for hermes agent",
+      "commits": 5,
+      "totalCommits": null,
+      "recentCommits": 5,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "isFork": false,
+      "updatedAt": "2026-09-17T21:16:48Z",
+      "pushedAt": "2026-09-17T21:16:51Z",
+      "activityScore": 5673
     }
   ]
 }

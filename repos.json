@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:19:22.088Z",
+  "generatedAt": "2026-10-03T05:25:17.711Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,15 +21,11 @@
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 37,
+      "commits": 35,
       "totalCommits": null,
-      "recentCommits": 37,
+      "recentCommits": 35,
       "refs": [
-        "fix/expire-thread-membership-14354249233564697325",
-        "github-pr-review-integration-17189192674571470719",
         "hide-filter-wait-7637780051223218206",
-        "issue-2-launch-tips-1261713256369999135",
-        "issue-3-3093748386067199488",
         "main"
       ],
       "scannedBranches": 6,
@@ -39,16 +35,16 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 38577
+      "activityScore": 35967
     },
     {
       "name": "data-processing",
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 26,
+      "commits": 28,
       "totalCommits": null,
-      "recentCommits": 26,
+      "recentCommits": 28,
       "refs": [
         "main"
       ],
@@ -57,18 +53,18 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-10-02T17:35:00Z",
-      "pushedAt": "2026-10-02T18:17:19Z",
-      "activityScore": 27193
+      "updatedAt": "2026-10-03T00:03:45Z",
+      "pushedAt": "2026-10-03T00:23:08Z",
+      "activityScore": 29192
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 9,
+      "commits": 10,
       "totalCommits": null,
-      "recentCommits": 9,
+      "recentCommits": 10,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -77,9 +73,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-10-01T23:08:25Z",
-      "pushedAt": "2026-10-01T23:08:33Z",
-      "activityScore": 10236
+      "updatedAt": "2026-10-03T00:08:47Z",
+      "pushedAt": "2026-10-03T00:08:54Z",
+      "activityScore": 11262
     },
     {
       "name": "review-mcp",
@@ -100,7 +96,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5867
+      "activityScore": 5857
     },
     {
       "name": "hermes-gate",
@@ -120,7 +116,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 5673
+      "activityScore": 5663
     }
   ]
 }

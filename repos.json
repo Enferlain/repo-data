@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T16:28:16.999Z",
+  "generatedAt": "2026-10-03T21:24:24.446Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -35,7 +35,7 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 35951
+      "activityScore": 35944
     },
     {
       "name": "data-processing",
@@ -55,7 +55,7 @@
       "isFork": false,
       "updatedAt": "2026-10-03T00:03:45Z",
       "pushedAt": "2026-10-03T00:23:08Z",
-      "activityScore": 29176
+      "activityScore": 29169
     },
     {
       "name": "sd-scripts",
@@ -75,7 +75,7 @@
       "isFork": true,
       "updatedAt": "2026-10-03T00:08:47Z",
       "pushedAt": "2026-10-03T00:08:54Z",
-      "activityScore": 11246
+      "activityScore": 11239
     },
     {
       "name": "review-mcp",
@@ -96,16 +96,16 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5841
+      "activityScore": 5833
     },
     {
       "name": "hermes-gate",
       "fullName": "Enferlain/hermes-gate",
       "url": "https://github.com/Enferlain/hermes-gate",
       "description": "non container security layer for hermes agent",
-      "commits": 5,
+      "commits": 2,
       "totalCommits": null,
-      "recentCommits": 5,
+      "recentCommits": 2,
       "refs": [
         "main"
       ],
@@ -116,7 +116,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 5647
+      "activityScore": 2640
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T12:29:46.723Z",
+  "generatedAt": "2026-10-04T21:35:36.096Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 35,
+      "commits": 34,
       "totalCommits": null,
-      "recentCommits": 35,
+      "recentCommits": 34,
       "refs": [
         "hide-filter-wait-7637780051223218206",
         "main"
@@ -35,7 +35,7 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 35922
+      "activityScore": 34909
     },
     {
       "name": "data-processing",
@@ -55,7 +55,7 @@
       "isFork": false,
       "updatedAt": "2026-10-04T05:13:40Z",
       "pushedAt": "2026-10-04T05:13:49Z",
-      "activityScore": 33189
+      "activityScore": 33176
     },
     {
       "name": "sd-scripts",
@@ -75,7 +75,7 @@
       "isFork": true,
       "updatedAt": "2026-10-04T04:39:22Z",
       "pushedAt": "2026-10-04T04:39:29Z",
-      "activityScore": 15259
+      "activityScore": 15245
     },
     {
       "name": "review-mcp",
@@ -96,7 +96,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5811
+      "activityScore": 5798
     },
     {
       "name": "hermes-gate",
@@ -116,7 +116,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 2618
+      "activityScore": 2605
     }
   ]
 }

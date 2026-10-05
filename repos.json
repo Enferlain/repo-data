@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T05:50:44.833Z",
+  "generatedAt": "2026-10-05T14:52:42.870Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-10-05T03:18:15Z",
       "pushedAt": "2026-10-05T03:18:35Z",
-      "activityScore": 38196
+      "activityScore": 38183
     },
     {
       "name": "hcom",
@@ -55,7 +55,7 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 32896
+      "activityScore": 32883
     },
     {
       "name": "sd-scripts",
@@ -75,7 +75,7 @@
       "isFork": true,
       "updatedAt": "2026-10-05T03:41:01Z",
       "pushedAt": "2026-10-05T03:41:08Z",
-      "activityScore": 16267
+      "activityScore": 16254
     },
     {
       "name": "review-mcp",
@@ -96,7 +96,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5786
+      "activityScore": 5773
     },
     {
       "name": "hermes-gate",
@@ -116,7 +116,7 @@
       "isFork": false,
       "updatedAt": "2026-09-17T21:16:48Z",
       "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 2593
+      "activityScore": 2579
     }
   ]
 }

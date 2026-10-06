@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:52:42.870Z",
+  "generatedAt": "2026-10-06T00:07:47.529Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 37,
+      "commits": 42,
       "totalCommits": null,
-      "recentCommits": 37,
+      "recentCommits": 42,
       "refs": [
         "main"
       ],
@@ -32,20 +32,19 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-10-05T03:18:15Z",
-      "pushedAt": "2026-10-05T03:18:35Z",
-      "activityScore": 38183
+      "updatedAt": "2026-10-05T19:47:23Z",
+      "pushedAt": "2026-10-05T19:48:54Z",
+      "activityScore": 43194
     },
     {
       "name": "hcom",
       "fullName": "Enferlain/hcom",
       "url": "https://github.com/Enferlain/hcom",
       "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 32,
+      "commits": 21,
       "totalCommits": null,
-      "recentCommits": 32,
+      "recentCommits": 21,
       "refs": [
-        "hide-filter-wait-7637780051223218206",
         "main"
       ],
       "scannedBranches": 6,
@@ -55,7 +54,7 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 32883
+      "activityScore": 21720
     },
     {
       "name": "sd-scripts",
@@ -75,7 +74,7 @@
       "isFork": true,
       "updatedAt": "2026-10-05T03:41:01Z",
       "pushedAt": "2026-10-05T03:41:08Z",
-      "activityScore": 16254
+      "activityScore": 16240
     },
     {
       "name": "review-mcp",
@@ -96,27 +95,27 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5773
+      "activityScore": 5759
     },
     {
-      "name": "hermes-gate",
-      "fullName": "Enferlain/hermes-gate",
-      "url": "https://github.com/Enferlain/hermes-gate",
-      "description": "non container security layer for hermes agent",
-      "commits": 2,
+      "name": "ebay-automation",
+      "fullName": "Enferlain/ebay-automation",
+      "url": "https://github.com/Enferlain/ebay-automation",
+      "description": "ebay stuff",
+      "commits": 1,
       "totalCommits": null,
-      "recentCommits": 2,
+      "recentCommits": 1,
       "refs": [
         "main"
       ],
       "scannedBranches": 1,
       "stars": 0,
       "forks": 0,
-      "language": "",
+      "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-09-17T21:16:48Z",
-      "pushedAt": "2026-09-17T21:16:51Z",
-      "activityScore": 2579
+      "updatedAt": "2026-10-03T22:59:59Z",
+      "pushedAt": "2026-10-03T23:33:31Z",
+      "activityScore": 2128
     }
   ]
 }

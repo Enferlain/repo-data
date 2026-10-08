@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T23:09:53.515Z",
+  "generatedAt": "2026-10-08T06:15:02.408Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 51,
+      "commits": 53,
       "totalCommits": null,
-      "recentCommits": 51,
+      "recentCommits": 53,
       "refs": [
         "main"
       ],
@@ -32,29 +32,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-10-07T20:45:56Z",
-      "pushedAt": "2026-10-07T20:46:02Z",
-      "activityScore": 52197
-    },
-    {
-      "name": "hcom",
-      "fullName": "Enferlain/hcom",
-      "url": "https://github.com/Enferlain/hcom",
-      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 18,
-      "totalCommits": null,
-      "recentCommits": 18,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 6,
-      "stars": 0,
-      "forks": 0,
-      "language": "Rust",
-      "isFork": true,
-      "updatedAt": "2026-09-22T06:52:10Z",
-      "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 18651
+      "updatedAt": "2026-10-08T04:37:41Z",
+      "pushedAt": "2026-10-08T04:37:48Z",
+      "activityScore": 54198
     },
     {
       "name": "sd-scripts",
@@ -74,7 +54,47 @@
       "isFork": true,
       "updatedAt": "2026-10-06T06:33:04Z",
       "pushedAt": "2026-10-06T06:33:12Z",
-      "activityScore": 17211
+      "activityScore": 17200
+    },
+    {
+      "name": "hcom",
+      "fullName": "Enferlain/hcom",
+      "url": "https://github.com/Enferlain/hcom",
+      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
+      "commits": 15,
+      "totalCommits": null,
+      "recentCommits": 15,
+      "refs": [
+        "main"
+      ],
+      "scannedBranches": 6,
+      "stars": 0,
+      "forks": 0,
+      "language": "Rust",
+      "isFork": true,
+      "updatedAt": "2026-09-22T06:52:10Z",
+      "pushedAt": "2026-09-22T06:52:20Z",
+      "activityScore": 15641
+    },
+    {
+      "name": "hermes-agora",
+      "fullName": "Enferlain/hermes-agora",
+      "url": "https://github.com/Enferlain/hermes-agora",
+      "description": "",
+      "commits": 7,
+      "totalCommits": null,
+      "recentCommits": 7,
+      "refs": [
+        "master"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "Shell",
+      "isFork": false,
+      "updatedAt": "2026-10-08T04:22:18Z",
+      "pushedAt": "2026-10-08T04:22:21Z",
+      "activityScore": 8197
     },
     {
       "name": "review-mcp",
@@ -95,27 +115,7 @@
       "isFork": false,
       "updatedAt": "2026-09-19T03:06:05Z",
       "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5691
-    },
-    {
-      "name": "ebay-automation",
-      "fullName": "Enferlain/ebay-automation",
-      "url": "https://github.com/Enferlain/ebay-automation",
-      "description": "ebay stuff",
-      "commits": 1,
-      "totalCommits": null,
-      "recentCommits": 1,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-10-03T22:59:59Z",
-      "pushedAt": "2026-10-03T23:33:31Z",
-      "activityScore": 2060
+      "activityScore": 5680
     }
   ]
 }

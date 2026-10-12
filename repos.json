@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T22:05:20.779Z",
+  "generatedAt": "2026-10-12T06:07:38.921Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,16 +34,36 @@
       "isFork": false,
       "updatedAt": "2026-10-10T23:15:04Z",
       "pushedAt": "2026-10-10T23:15:10Z",
-      "activityScore": 61167
+      "activityScore": 61155
+    },
+    {
+      "name": "hermes-agora",
+      "fullName": "Enferlain/hermes-agora",
+      "url": "https://github.com/Enferlain/hermes-agora",
+      "description": "",
+      "commits": 23,
+      "totalCommits": null,
+      "recentCommits": 23,
+      "refs": [
+        "master"
+      ],
+      "scannedBranches": 1,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-10-12T05:48:38Z",
+      "pushedAt": "2026-10-12T05:50:08Z",
+      "activityScore": 24200
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 21,
+      "commits": 22,
       "totalCommits": null,
-      "recentCommits": 21,
+      "recentCommits": 22,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -52,29 +72,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-10-11T03:24:49Z",
-      "pushedAt": "2026-10-11T03:24:54Z",
-      "activityScore": 22243
-    },
-    {
-      "name": "hermes-agora",
-      "fullName": "Enferlain/hermes-agora",
-      "url": "https://github.com/Enferlain/hermes-agora",
-      "description": "",
-      "commits": 8,
-      "totalCommits": null,
-      "recentCommits": 8,
-      "refs": [
-        "master"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "Shell",
-      "isFork": false,
-      "updatedAt": "2026-10-09T05:10:18Z",
-      "pushedAt": "2026-10-09T05:11:21Z",
-      "activityScore": 9105
+      "updatedAt": "2026-10-11T22:45:03Z",
+      "pushedAt": "2026-10-11T22:45:09Z",
+      "activityScore": 23259
     },
     {
       "name": "hcom",
@@ -94,28 +94,27 @@
       "isFork": true,
       "updatedAt": "2026-09-22T06:52:10Z",
       "pushedAt": "2026-09-22T06:52:20Z",
-      "activityScore": 8513
+      "activityScore": 8501
     },
     {
-      "name": "review-mcp",
-      "fullName": "Enferlain/review-mcp",
-      "url": "https://github.com/Enferlain/review-mcp",
-      "description": "mcp I made to ask for reviews with glm, maybe other models/features later",
+      "name": "pytortch-backend-experiments",
+      "fullName": "Enferlain/pytortch-backend-experiments",
+      "url": "https://github.com/Enferlain/pytortch-backend-experiments",
+      "description": "",
       "commits": 5,
       "totalCommits": null,
       "recentCommits": 5,
       "refs": [
-        "feat/glm-api-key-alias",
-        "main"
+        "master"
       ],
-      "scannedBranches": 3,
+      "scannedBranches": 1,
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-09-19T03:06:05Z",
-      "pushedAt": "2026-09-19T03:06:05Z",
-      "activityScore": 5552
+      "updatedAt": "2026-10-12T05:30:31Z",
+      "pushedAt": "2026-10-12T05:30:37Z",
+      "activityScore": 6199
     }
   ]
 }

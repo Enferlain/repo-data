@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T13:31:35.065Z",
+  "generatedAt": "2026-10-19T22:26:26.167Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -34,7 +34,7 @@
       "isFork": false,
       "updatedAt": "2026-10-18T07:11:55Z",
       "pushedAt": "2026-10-18T07:12:06Z",
-      "activityScore": 65156
+      "activityScore": 65143
     },
     {
       "name": "hermes-agora",
@@ -55,16 +55,16 @@
       "isFork": false,
       "updatedAt": "2026-10-18T06:44:37Z",
       "pushedAt": "2026-10-18T06:44:45Z",
-      "activityScore": 52305
+      "activityScore": 52292
     },
     {
       "name": "pytortch-backend-experiments",
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 30,
+      "commits": 31,
       "totalCommits": null,
-      "recentCommits": 30,
+      "recentCommits": 31,
       "refs": [
         "master"
       ],
@@ -73,9 +73,30 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-10-19T01:03:40Z",
-      "pushedAt": "2026-10-19T01:03:48Z",
-      "activityScore": 31182
+      "updatedAt": "2026-10-19T20:36:02Z",
+      "pushedAt": "2026-10-19T20:36:09Z",
+      "activityScore": 32197
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "fullName": "Enferlain/codebase-memory-mcp",
+      "url": "https://github.com/Enferlain/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "commits": 26,
+      "totalCommits": null,
+      "recentCommits": 26,
+      "refs": [
+        "fork/usable-graph-refresh",
+        "fork/v0.12.1-patches"
+      ],
+      "scannedBranches": 8,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "isFork": true,
+      "updatedAt": "2026-10-19T19:33:24Z",
+      "pushedAt": "2026-10-19T19:47:32Z",
+      "activityScore": 27346
     },
     {
       "name": "sd-scripts",
@@ -95,27 +116,7 @@
       "isFork": true,
       "updatedAt": "2026-10-11T22:45:03Z",
       "pushedAt": "2026-10-11T22:45:09Z",
-      "activityScore": 23003
-    },
-    {
-      "name": "ebay-automation",
-      "fullName": "Enferlain/ebay-automation",
-      "url": "https://github.com/Enferlain/ebay-automation",
-      "description": "ebay stuff",
-      "commits": 1,
-      "totalCommits": null,
-      "recentCommits": 1,
-      "refs": [
-        "main"
-      ],
-      "scannedBranches": 1,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-10-03T22:59:59Z",
-      "pushedAt": "2026-10-03T23:33:31Z",
-      "activityScore": 1654
+      "activityScore": 22990
     }
   ]
 }

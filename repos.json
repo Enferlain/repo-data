@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T04:52:26.977Z",
+  "generatedAt": "2026-10-25T11:42:51.233Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -16,6 +16,28 @@
     "minRecentCommits": 1
   },
   "repos": [
+    {
+      "name": "pytortch-backend-experiments",
+      "fullName": "Enferlain/pytortch-backend-experiments",
+      "url": "https://github.com/Enferlain/pytortch-backend-experiments",
+      "description": "",
+      "commits": 91,
+      "totalCommits": null,
+      "recentCommits": 91,
+      "refs": [
+        "__dolt_remote_info__",
+        "master",
+        "scoreboard-and-consolidation-plan"
+      ],
+      "scannedBranches": 3,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-10-25T06:57:32Z",
+      "pushedAt": "2026-10-25T06:57:38Z",
+      "activityScore": 92493
+    },
     {
       "name": "data-processing",
       "fullName": "Enferlain/data-processing",
@@ -34,29 +56,7 @@
       "isFork": false,
       "updatedAt": "2026-10-24T21:13:13Z",
       "pushedAt": "2026-10-24T21:13:21Z",
-      "activityScore": 89189
-    },
-    {
-      "name": "pytortch-backend-experiments",
-      "fullName": "Enferlain/pytortch-backend-experiments",
-      "url": "https://github.com/Enferlain/pytortch-backend-experiments",
-      "description": "",
-      "commits": 87,
-      "totalCommits": null,
-      "recentCommits": 87,
-      "refs": [
-        "__dolt_remote_info__",
-        "master",
-        "scoreboard-and-consolidation-plan"
-      ],
-      "scannedBranches": 3,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-10-25T03:47:07Z",
-      "pushedAt": "2026-10-25T03:59:42Z",
-      "activityScore": 88498
+      "activityScore": 89179
     },
     {
       "name": "hermes-agora",
@@ -77,7 +77,7 @@
       "isFork": false,
       "updatedAt": "2026-10-20T04:25:06Z",
       "pushedAt": "2026-10-20T04:36:22Z",
-      "activityScore": 59174
+      "activityScore": 59164
     },
     {
       "name": "codebase-memory-mcp",
@@ -98,7 +98,7 @@
       "isFork": true,
       "updatedAt": "2026-10-19T19:33:24Z",
       "pushedAt": "2026-10-19T19:47:32Z",
-      "activityScore": 27161
+      "activityScore": 27151
     },
     {
       "name": "sd-scripts",
@@ -118,7 +118,7 @@
       "isFork": true,
       "updatedAt": "2026-10-25T01:20:16Z",
       "pushedAt": "2026-10-25T01:23:16Z",
-      "activityScore": 25265
+      "activityScore": 25255
     }
   ]
 }

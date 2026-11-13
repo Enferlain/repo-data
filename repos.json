@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T20:03:39.001Z",
+  "generatedAt": "2026-11-13T06:54:23.654Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 208,
+      "commits": 207,
       "totalCommits": null,
-      "recentCommits": 208,
+      "recentCommits": 207,
       "refs": [
         "__dolt_remote_info__",
         "master",
@@ -36,7 +36,7 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 209259
+      "activityScore": 208243
     },
     {
       "name": "data-processing",
@@ -57,7 +57,7 @@
       "isFork": false,
       "updatedAt": "2026-11-12T02:24:40Z",
       "pushedAt": "2026-11-12T02:27:33Z",
-      "activityScore": 118394
+      "activityScore": 118378
     },
     {
       "name": "sd-scripts",
@@ -77,28 +77,7 @@
       "isFork": true,
       "updatedAt": "2026-11-12T16:58:43Z",
       "pushedAt": "2026-11-12T16:58:48Z",
-      "activityScore": 51266
-    },
-    {
-      "name": "hermes-agora",
-      "fullName": "Enferlain/hermes-agora",
-      "url": "https://github.com/Enferlain/hermes-agora",
-      "description": "",
-      "commits": 26,
-      "totalCommits": null,
-      "recentCommits": 26,
-      "refs": [
-        "__dolt_remote_info__",
-        "master"
-      ],
-      "scannedBranches": 2,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-10-20T04:25:06Z",
-      "pushedAt": "2026-10-20T04:36:22Z",
-      "activityScore": 26522
+      "activityScore": 51250
     },
     {
       "name": "codebase-memory-mcp",
@@ -119,7 +98,28 @@
       "isFork": true,
       "updatedAt": "2026-10-19T19:33:24Z",
       "pushedAt": "2026-10-19T19:47:32Z",
-      "activityScore": 26509
+      "activityScore": 26493
+    },
+    {
+      "name": "hcom",
+      "fullName": "Enferlain/hcom",
+      "url": "https://github.com/Enferlain/hcom",
+      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
+      "commits": 21,
+      "totalCommits": null,
+      "recentCommits": 21,
+      "refs": [
+        "patches/upstream-de33e31",
+        "rebuild/upstream-f687a9c"
+      ],
+      "scannedBranches": 8,
+      "stars": 0,
+      "forks": 0,
+      "language": "Rust",
+      "isFork": true,
+      "updatedAt": "2026-10-23T18:58:00Z",
+      "pushedAt": "2026-10-23T19:07:46Z",
+      "activityScore": 21633
     }
   ]
 }

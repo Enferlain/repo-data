@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:49:53.798Z",
+  "generatedAt": "2026-11-14T06:39:08.697Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 207,
+      "commits": 204,
       "totalCommits": null,
-      "recentCommits": 207,
+      "recentCommits": 204,
       "refs": [
         "__dolt_remote_info__",
         "master",
@@ -36,7 +36,7 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 208224
+      "activityScore": 205209
     },
     {
       "name": "data-processing",
@@ -57,16 +57,16 @@
       "isFork": false,
       "updatedAt": "2026-11-12T02:24:40Z",
       "pushedAt": "2026-11-12T02:27:33Z",
-      "activityScore": 118360
+      "activityScore": 118344
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 62,
+      "commits": 67,
       "totalCommits": null,
-      "recentCommits": 62,
+      "recentCommits": 67,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -75,9 +75,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-11-13T17:17:39Z",
-      "pushedAt": "2026-11-13T17:17:45Z",
-      "activityScore": 63266
+      "updatedAt": "2026-11-13T21:03:57Z",
+      "pushedAt": "2026-11-13T21:04:33Z",
+      "activityScore": 68256
     },
     {
       "name": "codebase-memory-mcp",
@@ -98,28 +98,27 @@
       "isFork": true,
       "updatedAt": "2026-10-19T19:33:24Z",
       "pushedAt": "2026-10-19T19:47:32Z",
-      "activityScore": 26475
+      "activityScore": 26459
     },
     {
-      "name": "hcom",
-      "fullName": "Enferlain/hcom",
-      "url": "https://github.com/Enferlain/hcom",
-      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
+      "name": "safeagents-eval",
+      "fullName": "Enferlain/safeagents-eval",
+      "url": "https://github.com/Enferlain/safeagents-eval",
+      "description": "safeagents eval for hermes, trial plugin",
       "commits": 21,
       "totalCommits": null,
       "recentCommits": 21,
       "refs": [
-        "patches/upstream-de33e31",
-        "rebuild/upstream-f687a9c"
+        "main"
       ],
-      "scannedBranches": 8,
+      "scannedBranches": 1,
       "stars": 0,
       "forks": 0,
-      "language": "Rust",
-      "isFork": true,
-      "updatedAt": "2026-10-23T18:58:00Z",
-      "pushedAt": "2026-10-23T19:07:46Z",
-      "activityScore": 21614
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-11-13T20:37:47Z",
+      "pushedAt": "2026-11-13T20:37:48Z",
+      "activityScore": 22185
     }
   ]
 }

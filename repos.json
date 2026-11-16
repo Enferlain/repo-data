@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:43:49.233Z",
+  "generatedAt": "2026-11-16T22:15:53.787Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 194,
+      "commits": 193,
       "totalCommits": null,
-      "recentCommits": 194,
+      "recentCommits": 193,
       "refs": [
         "__dolt_remote_info__",
         "master",
@@ -36,16 +36,16 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 195139
+      "activityScore": 194116
     },
     {
       "name": "data-processing",
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 121,
+      "commits": 130,
       "totalCommits": null,
-      "recentCommits": 121,
+      "recentCommits": 130,
       "refs": [
         "__dolt_remote_info__",
         "main"
@@ -55,18 +55,18 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-11-15T16:25:57Z",
-      "pushedAt": "2026-11-15T19:50:31Z",
-      "activityScore": 122399
+      "updatedAt": "2026-11-16T17:58:36Z",
+      "pushedAt": "2026-11-16T18:02:41Z",
+      "activityScore": 131414
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 78,
+      "commits": 83,
       "totalCommits": null,
-      "recentCommits": 78,
+      "recentCommits": 83,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -75,30 +75,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-11-14T18:56:17Z",
-      "pushedAt": "2026-11-14T19:59:39Z",
-      "activityScore": 79218
-    },
-    {
-      "name": "codebase-memory-mcp",
-      "fullName": "Enferlain/codebase-memory-mcp",
-      "url": "https://github.com/Enferlain/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "commits": 26,
-      "totalCommits": null,
-      "recentCommits": 26,
-      "refs": [
-        "fork/usable-graph-refresh",
-        "fork/v0.12.1-patches"
-      ],
-      "scannedBranches": 8,
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "isFork": true,
-      "updatedAt": "2026-10-19T19:33:24Z",
-      "pushedAt": "2026-10-19T19:47:32Z",
-      "activityScore": 26389
+      "updatedAt": "2026-11-16T18:46:40Z",
+      "pushedAt": "2026-11-16T19:37:56Z",
+      "activityScore": 84265
     },
     {
       "name": "safeagents-eval",
@@ -118,7 +97,28 @@
       "isFork": false,
       "updatedAt": "2026-11-13T20:37:47Z",
       "pushedAt": "2026-11-13T20:37:48Z",
-      "activityScore": 22115
+      "activityScore": 22093
+    },
+    {
+      "name": "hcom",
+      "fullName": "Enferlain/hcom",
+      "url": "https://github.com/Enferlain/hcom",
+      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
+      "commits": 21,
+      "totalCommits": null,
+      "recentCommits": 21,
+      "refs": [
+        "patches/upstream-de33e31",
+        "rebuild/upstream-f687a9c"
+      ],
+      "scannedBranches": 8,
+      "stars": 0,
+      "forks": 0,
+      "language": "Rust",
+      "isFork": true,
+      "updatedAt": "2026-10-23T18:58:00Z",
+      "pushedAt": "2026-10-23T19:07:46Z",
+      "activityScore": 21505
     }
   ]
 }

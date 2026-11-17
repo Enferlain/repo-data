@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:03:36.090Z",
+  "generatedAt": "2026-11-17T21:01:37.224Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 190,
+      "commits": 188,
       "totalCommits": null,
-      "recentCommits": 190,
+      "recentCommits": 188,
       "refs": [
         "__dolt_remote_info__",
         "master",
@@ -36,7 +36,7 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 191102
+      "activityScore": 189083
     },
     {
       "name": "data-processing",
@@ -57,7 +57,7 @@
       "isFork": false,
       "updatedAt": "2026-11-16T17:58:36Z",
       "pushedAt": "2026-11-16T18:02:41Z",
-      "activityScore": 130399
+      "activityScore": 130381
     },
     {
       "name": "sd-scripts",
@@ -77,16 +77,16 @@
       "isFork": true,
       "updatedAt": "2026-11-16T18:46:40Z",
       "pushedAt": "2026-11-16T19:37:56Z",
-      "activityScore": 84251
+      "activityScore": 84232
     },
     {
       "name": "safeagents-eval",
       "fullName": "Enferlain/safeagents-eval",
       "url": "https://github.com/Enferlain/safeagents-eval",
       "description": "safeagents eval for hermes, trial plugin",
-      "commits": 21,
+      "commits": 30,
       "totalCommits": null,
-      "recentCommits": 21,
+      "recentCommits": 30,
       "refs": [
         "main"
       ],
@@ -95,9 +95,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-11-13T20:37:47Z",
-      "pushedAt": "2026-11-13T20:37:48Z",
-      "activityScore": 22078
+      "updatedAt": "2026-11-17T20:06:19Z",
+      "pushedAt": "2026-11-17T20:06:21Z",
+      "activityScore": 31199
     },
     {
       "name": "hcom",
@@ -118,7 +118,7 @@
       "isFork": true,
       "updatedAt": "2026-10-23T18:58:00Z",
       "pushedAt": "2026-10-23T19:07:46Z",
-      "activityScore": 21491
+      "activityScore": 21472
     }
   ]
 }

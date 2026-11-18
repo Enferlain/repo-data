@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T21:01:37.224Z",
+  "generatedAt": "2026-11-18T07:40:02.293Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 188,
+      "commits": 187,
       "totalCommits": null,
-      "recentCommits": 188,
+      "recentCommits": 187,
       "refs": [
         "__dolt_remote_info__",
         "master",
@@ -36,7 +36,7 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 189083
+      "activityScore": 188067
     },
     {
       "name": "data-processing",
@@ -57,7 +57,7 @@
       "isFork": false,
       "updatedAt": "2026-11-16T17:58:36Z",
       "pushedAt": "2026-11-16T18:02:41Z",
-      "activityScore": 130381
+      "activityScore": 130365
     },
     {
       "name": "sd-scripts",
@@ -77,16 +77,16 @@
       "isFork": true,
       "updatedAt": "2026-11-16T18:46:40Z",
       "pushedAt": "2026-11-16T19:37:56Z",
-      "activityScore": 84232
+      "activityScore": 84216
     },
     {
       "name": "safeagents-eval",
       "fullName": "Enferlain/safeagents-eval",
       "url": "https://github.com/Enferlain/safeagents-eval",
       "description": "safeagents eval for hermes, trial plugin",
-      "commits": 30,
+      "commits": 32,
       "totalCommits": null,
-      "recentCommits": 30,
+      "recentCommits": 32,
       "refs": [
         "main"
       ],
@@ -95,30 +95,30 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-11-17T20:06:19Z",
-      "pushedAt": "2026-11-17T20:06:21Z",
-      "activityScore": 31199
+      "updatedAt": "2026-11-18T01:17:51Z",
+      "pushedAt": "2026-11-18T01:17:54Z",
+      "activityScore": 33191
     },
     {
-      "name": "hcom",
-      "fullName": "Enferlain/hcom",
-      "url": "https://github.com/Enferlain/hcom",
-      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
-      "commits": 21,
+      "name": "fitting-room",
+      "fullName": "Enferlain/fitting-room",
+      "url": "https://github.com/Enferlain/fitting-room",
+      "description": "benchmarks for my use cases",
+      "commits": 24,
       "totalCommits": null,
-      "recentCommits": 21,
+      "recentCommits": 24,
       "refs": [
-        "patches/upstream-de33e31",
-        "rebuild/upstream-f687a9c"
+        "benchmark-foundation",
+        "main"
       ],
-      "scannedBranches": 8,
+      "scannedBranches": 2,
       "stars": 0,
       "forks": 0,
-      "language": "Rust",
-      "isFork": true,
-      "updatedAt": "2026-10-23T18:58:00Z",
-      "pushedAt": "2026-10-23T19:07:46Z",
-      "activityScore": 21472
+      "language": "",
+      "isFork": false,
+      "updatedAt": "2026-11-18T01:37:00Z",
+      "pushedAt": "2026-11-18T02:12:23Z",
+      "activityScore": 25341
     }
   ]
 }

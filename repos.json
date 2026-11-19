@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T07:35:27.890Z",
+  "generatedAt": "2026-11-19T20:45:30.005Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 173,
+      "commits": 167,
       "totalCommits": null,
-      "recentCommits": 173,
+      "recentCommits": 167,
       "refs": [
         "__dolt_remote_info__",
         "scoreboard-and-consolidation-plan"
@@ -35,7 +35,7 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 173882
+      "activityScore": 167863
     },
     {
       "name": "data-processing",
@@ -56,7 +56,7 @@
       "isFork": false,
       "updatedAt": "2026-11-18T22:56:13Z",
       "pushedAt": "2026-11-18T22:57:08Z",
-      "activityScore": 132407
+      "activityScore": 132388
     },
     {
       "name": "sd-scripts",
@@ -76,7 +76,28 @@
       "isFork": true,
       "updatedAt": "2026-11-16T18:46:40Z",
       "pushedAt": "2026-11-16T19:37:56Z",
-      "activityScore": 84181
+      "activityScore": 84162
+    },
+    {
+      "name": "fitting-room",
+      "fullName": "Enferlain/fitting-room",
+      "url": "https://github.com/Enferlain/fitting-room",
+      "description": "benchmarks for my use cases",
+      "commits": 42,
+      "totalCommits": null,
+      "recentCommits": 42,
+      "refs": [
+        "benchmark-foundation",
+        "main"
+      ],
+      "scannedBranches": 2,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "isFork": false,
+      "updatedAt": "2026-11-19T15:28:51Z",
+      "pushedAt": "2026-11-19T15:28:56Z",
+      "activityScore": 43342
     },
     {
       "name": "safeagents-eval",
@@ -96,28 +117,7 @@
       "isFork": false,
       "updatedAt": "2026-11-18T13:21:57Z",
       "pushedAt": "2026-11-18T13:21:59Z",
-      "activityScore": 35173
-    },
-    {
-      "name": "fitting-room",
-      "fullName": "Enferlain/fitting-room",
-      "url": "https://github.com/Enferlain/fitting-room",
-      "description": "benchmarks for my use cases",
-      "commits": 30,
-      "totalCommits": null,
-      "recentCommits": 30,
-      "refs": [
-        "benchmark-foundation",
-        "main"
-      ],
-      "scannedBranches": 2,
-      "stars": 0,
-      "forks": 0,
-      "language": "",
-      "isFork": false,
-      "updatedAt": "2026-11-19T00:28:01Z",
-      "pushedAt": "2026-11-19T00:44:55Z",
-      "activityScore": 31340
+      "activityScore": 35154
     }
   ]
 }

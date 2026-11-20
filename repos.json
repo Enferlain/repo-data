@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:45:30.005Z",
+  "generatedAt": "2026-11-20T07:26:46.352Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -35,16 +35,16 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 167863
+      "activityScore": 167848
     },
     {
       "name": "data-processing",
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 131,
+      "commits": 128,
       "totalCommits": null,
-      "recentCommits": 131,
+      "recentCommits": 128,
       "refs": [
         "__dolt_remote_info__",
         "main"
@@ -54,9 +54,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-11-18T22:56:13Z",
-      "pushedAt": "2026-11-18T22:57:08Z",
-      "activityScore": 132388
+      "updatedAt": "2026-11-20T03:01:37Z",
+      "pushedAt": "2026-11-20T03:18:19Z",
+      "activityScore": 129414
     },
     {
       "name": "sd-scripts",
@@ -76,16 +76,16 @@
       "isFork": true,
       "updatedAt": "2026-11-16T18:46:40Z",
       "pushedAt": "2026-11-16T19:37:56Z",
-      "activityScore": 84162
+      "activityScore": 84147
     },
     {
       "name": "fitting-room",
       "fullName": "Enferlain/fitting-room",
       "url": "https://github.com/Enferlain/fitting-room",
       "description": "benchmarks for my use cases",
-      "commits": 42,
+      "commits": 49,
       "totalCommits": null,
-      "recentCommits": 42,
+      "recentCommits": 49,
       "refs": [
         "benchmark-foundation",
         "main"
@@ -95,18 +95,18 @@
       "forks": 0,
       "language": "",
       "isFork": false,
-      "updatedAt": "2026-11-19T15:28:51Z",
-      "pushedAt": "2026-11-19T15:28:56Z",
-      "activityScore": 43342
+      "updatedAt": "2026-11-20T03:21:52Z",
+      "pushedAt": "2026-11-20T03:40:16Z",
+      "activityScore": 50344
     },
     {
-      "name": "safeagents-eval",
-      "fullName": "Enferlain/safeagents-eval",
-      "url": "https://github.com/Enferlain/safeagents-eval",
-      "description": "safeagents eval for hermes, trial plugin",
-      "commits": 34,
+      "name": "hermes-safeagents",
+      "fullName": "Enferlain/hermes-safeagents",
+      "url": "https://github.com/Enferlain/hermes-safeagents",
+      "description": "Hermes plugin: SafeAgents-powered local security observation, review and replay (log-only)",
+      "commits": 35,
       "totalCommits": null,
-      "recentCommits": 34,
+      "recentCommits": 35,
       "refs": [
         "main"
       ],
@@ -115,9 +115,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-11-18T13:21:57Z",
-      "pushedAt": "2026-11-18T13:21:59Z",
-      "activityScore": 35154
+      "updatedAt": "2026-11-20T01:04:54Z",
+      "pushedAt": "2026-11-20T01:04:59Z",
+      "activityScore": 36191
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T07:26:46.352Z",
+  "generatedAt": "2026-11-20T20:29:26.953Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -35,16 +35,16 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 167848
+      "activityScore": 167829
     },
     {
       "name": "data-processing",
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 128,
+      "commits": 126,
       "totalCommits": null,
-      "recentCommits": 128,
+      "recentCommits": 126,
       "refs": [
         "__dolt_remote_info__",
         "main"
@@ -56,7 +56,7 @@
       "isFork": false,
       "updatedAt": "2026-11-20T03:01:37Z",
       "pushedAt": "2026-11-20T03:18:19Z",
-      "activityScore": 129414
+      "activityScore": 127395
     },
     {
       "name": "sd-scripts",
@@ -76,16 +76,16 @@
       "isFork": true,
       "updatedAt": "2026-11-16T18:46:40Z",
       "pushedAt": "2026-11-16T19:37:56Z",
-      "activityScore": 84147
+      "activityScore": 84128
     },
     {
       "name": "fitting-room",
       "fullName": "Enferlain/fitting-room",
       "url": "https://github.com/Enferlain/fitting-room",
       "description": "benchmarks for my use cases",
-      "commits": 49,
+      "commits": 52,
       "totalCommits": null,
-      "recentCommits": 49,
+      "recentCommits": 52,
       "refs": [
         "benchmark-foundation",
         "main"
@@ -95,9 +95,9 @@
       "forks": 0,
       "language": "",
       "isFork": false,
-      "updatedAt": "2026-11-20T03:21:52Z",
-      "pushedAt": "2026-11-20T03:40:16Z",
-      "activityScore": 50344
+      "updatedAt": "2026-11-20T19:01:19Z",
+      "pushedAt": "2026-11-20T19:07:53Z",
+      "activityScore": 53348
     },
     {
       "name": "hermes-safeagents",
@@ -117,7 +117,7 @@
       "isFork": false,
       "updatedAt": "2026-11-20T01:04:54Z",
       "pushedAt": "2026-11-20T01:04:59Z",
-      "activityScore": 36191
+      "activityScore": 36172
     }
   ]
 }

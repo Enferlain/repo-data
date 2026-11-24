@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:01:56.442Z",
+  "generatedAt": "2026-11-24T22:33:24.922Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -17,13 +17,34 @@
   },
   "repos": [
     {
+      "name": "data-processing",
+      "fullName": "Enferlain/data-processing",
+      "url": "https://github.com/Enferlain/data-processing",
+      "description": "for all kinds of data for ml related stuff, or maybe not who knows",
+      "commits": 129,
+      "totalCommits": null,
+      "recentCommits": 129,
+      "refs": [
+        "__dolt_remote_info__",
+        "main"
+      ],
+      "scannedBranches": 2,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "isFork": false,
+      "updatedAt": "2026-11-24T20:05:56Z",
+      "pushedAt": "2026-11-24T20:06:03Z",
+      "activityScore": 130346
+    },
+    {
       "name": "pytortch-backend-experiments",
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 125,
+      "commits": 122,
       "totalCommits": null,
-      "recentCommits": 125,
+      "recentCommits": 122,
       "refs": [
         "__dolt_remote_info__",
         "scoreboard-and-consolidation-plan"
@@ -35,37 +56,16 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 125704
-    },
-    {
-      "name": "data-processing",
-      "fullName": "Enferlain/data-processing",
-      "url": "https://github.com/Enferlain/data-processing",
-      "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 123,
-      "totalCommits": null,
-      "recentCommits": 123,
-      "refs": [
-        "__dolt_remote_info__",
-        "main"
-      ],
-      "scannedBranches": 2,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "isFork": false,
-      "updatedAt": "2026-11-23T03:04:55Z",
-      "pushedAt": "2026-11-23T03:05:47Z",
-      "activityScore": 124305
+      "activityScore": 122685
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 84,
+      "commits": 87,
       "totalCommits": null,
-      "recentCommits": 84,
+      "recentCommits": 87,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -74,9 +74,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": true,
-      "updatedAt": "2026-11-23T21:33:29Z",
-      "pushedAt": "2026-11-23T21:36:25Z",
-      "activityScore": 85252
+      "updatedAt": "2026-11-24T22:26:29Z",
+      "pushedAt": "2026-11-24T22:26:37Z",
+      "activityScore": 88270
     },
     {
       "name": "fitting-room",
@@ -97,16 +97,16 @@
       "isFork": false,
       "updatedAt": "2026-11-21T15:47:06Z",
       "pushedAt": "2026-11-21T21:16:21Z",
-      "activityScore": 57253
+      "activityScore": 57235
     },
     {
       "name": "hermes-safeagents",
       "fullName": "Enferlain/hermes-safeagents",
       "url": "https://github.com/Enferlain/hermes-safeagents",
       "description": "Hermes plugin: SafeAgents-powered local security observation, review and replay (log-only)",
-      "commits": 35,
+      "commits": 36,
       "totalCommits": null,
-      "recentCommits": 35,
+      "recentCommits": 36,
       "refs": [
         "main"
       ],
@@ -115,9 +115,9 @@
       "forks": 0,
       "language": "Python",
       "isFork": false,
-      "updatedAt": "2026-11-20T01:04:54Z",
-      "pushedAt": "2026-11-20T01:04:59Z",
-      "activityScore": 36047
+      "updatedAt": "2026-11-24T18:25:32Z",
+      "pushedAt": "2026-11-24T18:45:38Z",
+      "activityScore": 37194
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:00:01.988Z",
+  "generatedAt": "2026-11-24T10:01:56.442Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 140,
+      "commits": 125,
       "totalCommits": null,
-      "recentCommits": 140,
+      "recentCommits": 125,
       "refs": [
         "__dolt_remote_info__",
         "scoreboard-and-consolidation-plan"
@@ -35,16 +35,16 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 140718
+      "activityScore": 125704
     },
     {
       "name": "data-processing",
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 127,
+      "commits": 123,
       "totalCommits": null,
-      "recentCommits": 127,
+      "recentCommits": 123,
       "refs": [
         "__dolt_remote_info__",
         "main"
@@ -56,16 +56,16 @@
       "isFork": false,
       "updatedAt": "2026-11-23T03:04:55Z",
       "pushedAt": "2026-11-23T03:05:47Z",
-      "activityScore": 128319
+      "activityScore": 124305
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 85,
+      "commits": 84,
       "totalCommits": null,
-      "recentCommits": 85,
+      "recentCommits": 84,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -76,7 +76,7 @@
       "isFork": true,
       "updatedAt": "2026-11-23T21:33:29Z",
       "pushedAt": "2026-11-23T21:36:25Z",
-      "activityScore": 86266
+      "activityScore": 85252
     },
     {
       "name": "fitting-room",
@@ -97,7 +97,7 @@
       "isFork": false,
       "updatedAt": "2026-11-21T15:47:06Z",
       "pushedAt": "2026-11-21T21:16:21Z",
-      "activityScore": 57268
+      "activityScore": 57253
     },
     {
       "name": "hermes-safeagents",
@@ -117,7 +117,7 @@
       "isFork": false,
       "updatedAt": "2026-11-20T01:04:54Z",
       "pushedAt": "2026-11-20T01:04:59Z",
-      "activityScore": 36062
+      "activityScore": 36047
     }
   ]
 }

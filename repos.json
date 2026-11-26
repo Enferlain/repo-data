@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:47:58.545Z",
+  "generatedAt": "2026-11-26T08:32:26.841Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -21,9 +21,9 @@
       "fullName": "Enferlain/data-processing",
       "url": "https://github.com/Enferlain/data-processing",
       "description": "for all kinds of data for ml related stuff, or maybe not who knows",
-      "commits": 128,
+      "commits": 126,
       "totalCommits": null,
-      "recentCommits": 128,
+      "recentCommits": 126,
       "refs": [
         "__dolt_remote_info__",
         "main"
@@ -35,16 +35,16 @@
       "isFork": false,
       "updatedAt": "2026-11-24T20:05:56Z",
       "pushedAt": "2026-11-24T20:06:03Z",
-      "activityScore": 129313
+      "activityScore": 127297
     },
     {
       "name": "pytortch-backend-experiments",
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 109,
+      "commits": 103,
       "totalCommits": null,
-      "recentCommits": 109,
+      "recentCommits": 103,
       "refs": [
         "__dolt_remote_info__",
         "scoreboard-and-consolidation-plan"
@@ -56,7 +56,7 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 109652
+      "activityScore": 103636
     },
     {
       "name": "sd-scripts",
@@ -76,7 +76,7 @@
       "isFork": true,
       "updatedAt": "2026-11-25T20:24:26Z",
       "pushedAt": "2026-11-25T20:26:17Z",
-      "activityScore": 89268
+      "activityScore": 89252
     },
     {
       "name": "fitting-room",
@@ -97,7 +97,7 @@
       "isFork": false,
       "updatedAt": "2026-11-21T15:47:06Z",
       "pushedAt": "2026-11-21T21:16:21Z",
-      "activityScore": 57201
+      "activityScore": 57186
     },
     {
       "name": "hermes-safeagents",
@@ -117,7 +117,7 @@
       "isFork": false,
       "updatedAt": "2026-11-25T01:43:59Z",
       "pushedAt": "2026-11-25T01:44:04Z",
-      "activityScore": 38171
+      "activityScore": 38155
     }
   ]
 }

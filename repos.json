@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:32:26.841Z",
+  "generatedAt": "2026-11-26T21:41:06.444Z",
   "username": "Enferlain",
   "maxAgeDays": 30,
   "source": "github-repo-branches-user-commits-since",
@@ -35,16 +35,16 @@
       "isFork": false,
       "updatedAt": "2026-11-24T20:05:56Z",
       "pushedAt": "2026-11-24T20:06:03Z",
-      "activityScore": 127297
+      "activityScore": 127278
     },
     {
       "name": "pytortch-backend-experiments",
       "fullName": "Enferlain/pytortch-backend-experiments",
       "url": "https://github.com/Enferlain/pytortch-backend-experiments",
       "description": "",
-      "commits": 103,
+      "commits": 91,
       "totalCommits": null,
-      "recentCommits": 103,
+      "recentCommits": 91,
       "refs": [
         "__dolt_remote_info__",
         "scoreboard-and-consolidation-plan"
@@ -56,16 +56,16 @@
       "isFork": false,
       "updatedAt": "2026-11-05T22:53:47Z",
       "pushedAt": "2026-11-06T07:19:09Z",
-      "activityScore": 103636
+      "activityScore": 91617
     },
     {
       "name": "sd-scripts",
       "fullName": "Enferlain/sd-scripts",
       "url": "https://github.com/Enferlain/sd-scripts",
       "description": "Personal fork of sd-scripts, adding features and modifications of interest.",
-      "commits": 88,
+      "commits": 87,
       "totalCommits": null,
-      "recentCommits": 88,
+      "recentCommits": 87,
       "refs": [
         "model-strategy-trainer"
       ],
@@ -76,16 +76,16 @@
       "isFork": true,
       "updatedAt": "2026-11-25T20:24:26Z",
       "pushedAt": "2026-11-25T20:26:17Z",
-      "activityScore": 89252
+      "activityScore": 88233
     },
     {
       "name": "fitting-room",
       "fullName": "Enferlain/fitting-room",
       "url": "https://github.com/Enferlain/fitting-room",
       "description": "benchmarks for my use cases",
-      "commits": 56,
+      "commits": 57,
       "totalCommits": null,
-      "recentCommits": 56,
+      "recentCommits": 57,
       "refs": [
         "benchmark-foundation",
         "main"
@@ -95,9 +95,9 @@
       "forks": 0,
       "language": "",
       "isFork": false,
-      "updatedAt": "2026-11-21T15:47:06Z",
-      "pushedAt": "2026-11-21T21:16:21Z",
-      "activityScore": 57186
+      "updatedAt": "2026-11-24T02:40:13Z",
+      "pushedAt": "2026-11-26T17:16:57Z",
+      "activityScore": 58252
     },
     {
       "name": "hermes-safeagents",
@@ -117,7 +117,7 @@
       "isFork": false,
       "updatedAt": "2026-11-25T01:43:59Z",
       "pushedAt": "2026-11-25T01:44:04Z",
-      "activityScore": 38155
+      "activityScore": 38136
     }
   ]
 }
